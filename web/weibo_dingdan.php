@@ -39,7 +39,7 @@
 		
 		<div class="sbox_5">
 		
-				<div class="WMain1" style="border:none;">
+				<div class="WMain1">
 					<div class="WMain2 WMain2_weixin">
 						<ul>
 							<li style="display:block;">
@@ -81,30 +81,6 @@
 						</ul>
 					</div>
 				</div>
-	<script>
-	$(function(){
-		$(".WMain1 .tab a").click(function(){
-			$(this).addClass('on').siblings().removeClass('on');
-			var index = $(this).index();
-			number = index;
-			$('.WMain1 .WMain2 li').hide();
-			$('.WMain1 .WMain2 li:eq('+index+')').show();
-		});
-		
-		var auto = 1;  //等于1则自动切换，其他任意数字则不自动切换
-		if(auto ==1){
-			var number = 0;
-			var maxNumber = $('.WMain1 .tab a').length;
-			function autotab(){
-				number++;
-				number == maxNumber? number = 0 : number;
-				$('.WMain1 .tab a:eq('+number+')').addClass('on').siblings().removeClass('on');
-				$('.WMain1 .WMain2 ul li:eq('+number+')').show().siblings().hide();
-			}
-			
-		  }
-	});
-	</script>
 
 		</div>
 	</div>
@@ -139,44 +115,6 @@ var picker3 = new Pikaday({
 	yearRange: [2000,2020]
 });
 
-$(".sbox_1_item .m ul li a").click(function(){
-	$(this).addClass("cur").parent("li").siblings("li").find("a").removeClass("cur");
-	var option=$(this).parents(".m").prev("span").attr("data");
-	var value=$.trim($(this).html());
-	var li="<li data='"+option+"'><a href=''>"+value+"</a></li>";
-	if( value=="不限" ){
-		$(".sbox_2 .m li[data='"+option+"']").remove();
-	}else if( $(".sbox_2 .m li[data='"+option+"']").length>0 ){
-//		$(".sbox_2 .m li[data='"+option+"']").remove();
-		$(".sbox_2 .m li[data='"+option+"']").find("a").html(value);
-	}else{
-		$(".sbox_2 .m").append(li);
-	}
-	return false;
-});
-$(".sbox_2 .m").on("click","li a",function(){
-	var option=$(this).parent("li").attr("data");
-	var value=$.trim($(this).html());
-	$(this).parent("li").remove();
-	$(".sbox_1_item span.l[data='"+option+"']").next(".m").find("ul li a").removeClass("cur");
-	$(".sbox_1_item span.l[data='"+option+"']").next(".m").find("ul li:first-child a").addClass("cur");
-	return false;
-});
-$(".sbox_1_item .r a").click(function(){
-	if( $(this).attr("data")=="on" ){
-		$(this).attr("data","off");
-		$(this).parent().siblings(".m").find("ul").css("height","25px");
-		$(this).parents(".sbox_1_item").css("height","73px");
-	}else{
-		$(this).attr("data","on");
-		$(this).parent().siblings(".m").find("ul").css("height","auto");
-		$(this).parents(".sbox_1_item").css("height","auto");
-		var height=$(this).parents(".sbox_1_item").height();
-	//	console.log(height);
-		$(this).parents(".sbox_1_item").find(".l").css("height",height);
-	}
-	return false;
-});
 </script>
 
 
