@@ -39,7 +39,7 @@
 		
 		<div class="sbox_5">
 		
-				<div class="WMain1">
+				<div class="WMain1" style="border:none;">
 					<div class="WMain2 WMain2_weixin">
 						<ul>
 							<li style="display:block;">
@@ -57,43 +57,30 @@
 									<span>请填写产品、品牌或推广活动（时间、地点及活动内容）简介，让预约对象大致了解此次推广活动，请勿超过1000字</span>
 								</div>								
 								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
-									<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"/> 至 
-									<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2"/><br/>
-									<span>须晚于当前时间至少30分钟 建议您至少提前一天派单，或提前与客服确认相应公众号的可执行时间，以提高成单率</span>
+									<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"/> &nbsp;至&nbsp;
+									<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2"/>
+									<span style="margin:0 0 0 15px;">请选择当前时间15分钟后，7天之内的时间</span>
 								</div>
-
-								
-								
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发类型:</p>
-									<label><input type="radio" name="ifchangetime" checked />指定直发内容</label>
-									<label><input type="radio" name="ifchangetime" />帐号自拟直发内容</label><br/>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>预约结果反馈时间:</p>
+									<input type="text" name="textfield" id="datepicker3" class="txt2 txt2_2"/> 
+									<span style="margin:0 0 0 15px;">我们将在反馈时间之前，告知您所选择的网红是否接受您的预约订单。反馈时间必须晚于当前时间24小时。</span>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发配图:</p>
-									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button><label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
-									<br/>
-									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；建议尺寸：单图文、多图文第一条，900 * 500像素；多图文第2~N条，200*200像素。</span>
-								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>订单备注:</p>
-									<div><textarea name="" class="tarea_1"></textarea></div>
-									<span>选填，您可以进一步明确发布要求。</span>
-								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>正品证明:</p>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>上传附件:</p>
 									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
-									<br/>
-									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；若您推广的产品为知名品牌，请务必上传正品证明供平台审核。</span>
+									<span style="margin:0 0 0 15px;">您可以上传活动文档（txt、doc或docx格式）或活动图片（gif、jpg、jpeg或png格式），文件大小请控制在2M以下</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>是否短信通知:</p>
-									<label><input type="checkbox" name="ifsms" />手机短信通知</label>
-									<div><label><input type="checkbox" name="admit" id="admit" />同意相关 <a href="">服务协议</a></label></div>
-									<br/>
+									<label><input type="checkbox" name="ifsms" /><b>手机短信通知</b></label>
+									<div><label><input type="checkbox" name="admit" id="admit" /><b>同意相关 <a href="">服务协议</a></b></label></div>
 								</div>
+								<div class="WMain3 WMain3_2" style="margin-top:45px;">
+									<input type="submit" name="submit" value="发布" class="sub5" />
+								</div>
+								
 							</li>
 						</ul>
 					</div>
 				</div>
-					<div style="margin:40px 0 80px 0; float:left; left:30%; position:relative;">
-						<a href=""><img src="img/WLButton.png" /></a>
-					</div>
 	<script>
 	$(function(){
 		$(".WMain1 .tab a").click(function(){
@@ -144,6 +131,13 @@ var picker2 = new Pikaday({
 	maxDate: new Date('2020-12-31'),
 	yearRange: [2000,2020]
 });
+var picker3 = new Pikaday({
+	field: document.getElementById('datepicker3'),
+	firstDay: 1,
+	minDate: new Date('2000-01-01'),
+	maxDate: new Date('2020-12-31'),
+	yearRange: [2000,2020]
+});
 
 $(".sbox_1_item .m ul li a").click(function(){
 	$(this).addClass("cur").parent("li").siblings("li").find("a").removeClass("cur");
@@ -185,117 +179,6 @@ $(".sbox_1_item .r a").click(function(){
 });
 </script>
 
-<script type="text/javascript">
-
-    //实例化编辑器
-    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
-    var ue = UE.getEditor('editor');
-    function isFocus(e){
-        alert(UE.getEditor('editor').isFocus());
-        UE.dom.domUtils.preventDefault(e)
-    }
-    function setblur(e){
-        UE.getEditor('editor').blur();
-        UE.dom.domUtils.preventDefault(e)
-    }
-    function insertHtml() {
-        var value = prompt('插入html代码', '');
-        UE.getEditor('editor').execCommand('insertHtml', value)
-    }
-    function createEditor() {
-        enableBtn();
-        UE.getEditor('editor');
-    }
-    function getAllHtml() {
-        alert(UE.getEditor('editor').getAllHtml())
-    }
-    function getContent() {
-        var arr = [];
-        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
-        arr.push("内容为：");
-        arr.push(UE.getEditor('editor').getContent());
-        alert(arr.join("\n"));
-    }
-    function getPlainTxt() {
-        var arr = [];
-        arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
-        arr.push("内容为：");
-        arr.push(UE.getEditor('editor').getPlainTxt());
-        alert(arr.join('\n'))
-    }
-    function setContent(isAppendTo) {
-        var arr = [];
-        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
-        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
-        alert(arr.join("\n"));
-    }
-    function setDisabled() {
-        UE.getEditor('editor').setDisabled('fullscreen');
-        disableBtn("enable");
-    }
-
-    function setEnabled() {
-        UE.getEditor('editor').setEnabled();
-        enableBtn();
-    }
-
-    function getText() {
-        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
-        var range = UE.getEditor('editor').selection.getRange();
-        range.select();
-        var txt = UE.getEditor('editor').selection.getText();
-        alert(txt)
-    }
-
-    function getContentTxt() {
-        var arr = [];
-        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
-        arr.push("编辑器的纯文本内容为：");
-        arr.push(UE.getEditor('editor').getContentTxt());
-        alert(arr.join("\n"));
-    }
-    function hasContent() {
-        var arr = [];
-        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
-        arr.push("判断结果为：");
-        arr.push(UE.getEditor('editor').hasContents());
-        alert(arr.join("\n"));
-    }
-    function setFocus() {
-        UE.getEditor('editor').focus();
-    }
-    function deleteEditor() {
-        disableBtn();
-        UE.getEditor('editor').destroy();
-    }
-    function disableBtn(str) {
-        var div = document.getElementById('btns');
-        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
-        for (var i = 0, btn; btn = btns[i++];) {
-            if (btn.id == str) {
-                UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
-            } else {
-                btn.setAttribute("disabled", "true");
-            }
-        }
-    }
-    function enableBtn() {
-        var div = document.getElementById('btns');
-        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
-        for (var i = 0, btn; btn = btns[i++];) {
-            UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
-        }
-    }
-
-    function getLocalData () {
-        alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
-    }
-
-    function clearLocalData () {
-        UE.getEditor('editor').execCommand( "clearlocaldata" );
-        alert("已清空草稿箱")
-    }
-</script>
 
 </body>
 </html>
