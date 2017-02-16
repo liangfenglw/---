@@ -319,7 +319,7 @@
 								</div>
 								<div class="WMain3 WMain3_1"><p><i class="LGntas">*</i>新闻备注:</p>
 									<div>
-										<input type="text" name="textfield" id="textfield"  class="WIFN2"/>
+										<textarea name="textfield" id="textfield" class="WIFN2"/></textarea>
 										<p>还可能输入<b>50</b>个字</p>
 									</div>
 								</div>

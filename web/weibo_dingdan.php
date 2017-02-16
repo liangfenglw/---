@@ -39,7 +39,7 @@
 		
 		<div class="sbox_5">
 		
-				<div class="WMain1">
+				<div class="WMain1" style="border:none;">
 					<div class="WMain2 WMain2_weixin">
 						<ul>
 							<li style="display:block;">

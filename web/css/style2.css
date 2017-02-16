@@ -246,8 +246,8 @@ td.sbox_3_t6,td.sbox_3_t7,td.sbox_3_t8{	color:#f00;		font-size:16px;	}
 .sbox_5 .WMain3 p{	width:115px;		}
 .sbox_5 .WIFN1{		width:55%;		}
 .sbox_5 .WMain3{	margin:16px auto;	width:100%;	}
-.sbox_5 .WMain3 label{	margin-right:18px;	}
-.sbox_5 .WMain3 label input{	position:relative;	top:1px;	margin-right:6px;	}
+.sbox_5 .WMain3 label{	margin-right:20px;	}
+.sbox_5 .WMain3 label input{	position:relative;	top:1px;	margin-right:4px;	}
 .sbox_5 .WMain3_1{		width:100%;	}
 .sbox_5 .WMain3_1>div{	display:block;	margin-left:115px;	margin-right:12px;	position:relative;	}
 .sbox_5 .WMain3_1>div input{	display:block;	float:none;	width:100%;	}
@@ -256,9 +256,9 @@ td.sbox_3_t6,td.sbox_3_t7,td.sbox_3_t8{	color:#f00;		font-size:16px;	}
 .sbox_5 .WMain3_1>div p b{	color:#f00;	font-weight:400;	}
 .sbox_5 .WMain3_2{		}
 .sbox_5 .txt2{	border:1px solid #ccc;	height:30px;	line-height:30px;	margin:0;	width:150px;	background:url(../images/ico_date.png) no-repeat 136px center #fff;	}
-select.sel_t1{	border:1px solid #ccc;	height:30px;	line-height:30px;	margin:0 6px;	width:50px;	text-align:center;	text-indent:6px;	}
+select.sel_t1{	border:1px solid #ccc;	height:32px;	line-height:32px;	margin:0 6px;	width:50px;	text-align:center;	text-indent:6px;	}
 select.sel_t1 option{		}
-.sbox_5 .WMain3_2 span{		color:#999999;	font-size:14px;	margin-left:10px;	}
+.sbox_5 .WMain3_2>span{		color:#999999;	font-size:14px;	margin-left:10px;	}
 
 /*	问答任务列表	*/
 table.table_in1_2{	margin:0 auto;	border-left:1px solid #F2F2F2;	border-right:1px solid #F2F2F2;	}
@@ -294,7 +294,7 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 .WMain2_weixin .WMain3 p{	width:140px;	text-align:right;	margin-right:17px;	}
 .WMain2_weixin .WMain3_2{	margin-bottom:5px;	}
 .WMain2_weixin .WMain3 label{	position:relative;	top:1px;		}
-.WMain2_weixin .WMain3_2 span{	line-height:1.5;	padding-top:6px;	display:inline-block;	margin-left:157px;	}
+.WMain2_weixin .WMain3_2>span{	line-height:1.5;	padding-top:6px;	display:inline-block;	margin-left:157px;	}
 .txt7{	background:#DDDDDD;	font-size:14px;	color:#333;	text-align:center;	border-radius:5px;	padding:0;	line-height:30px;	height:30px;
 	border:1px solid #ddd;	width:80px;	cursor:pointer;	}
 .txt8{	background:#2856B6;	font-size:14px;	color:#fff;	text-align:center;	border-radius:5px;	padding:0;	line-height:30px;	height:30px;
@@ -315,8 +315,19 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 .sub5{	width:180px;	height:50px;	background:#E53935;	color:#fff;	font-size:20px;	cursor:pointer;	border:none;	border-radius:5px;	text-align:center;
 	margin-left:157px;	}
 
-
-
+/*	添加文案策划任务	*/
+.editor_w #editor{	width:80%;	}
+#radio_a1{		}
+#radio_a1 label{	float:left;		height:35px;	line-height:35px;	padding:0 10px;	color:#333;	background:#fff;	border-radius:3px;	
+	text-align:center;	margin:0 18px 5px 0;	position:relative;		overflow:hidden;	cursor:pointer;	}
+#radio_a1 label input{	position:absolute;	left:-110px;	top:12px;			}
+#radio_a1 label.cur{	color:#fff;	background:#2D9FDD;			}
+.sel2{	height:32px;	line-height:32px;	border:1px solid #E5E5E5;	background:#fff;	padding:0 10px 0 10px;	font-size:14px;	text-align:center;	float:left;
+	border-radius:5px;	min-width:250px;	}
+.info_1{	display:block;	margin-left:157px;	border:1px dashed #ccc;		width:78%;	padding:20px 0;	}
+.info_1 h3{		margin:0 20px;	line-height:1.2;	}
+.info_1 ul{		margin:15px 20px 0;	line-height:24px;	}
+.info_1 ul li{	display:block;	}
 
 
 
