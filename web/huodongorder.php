@@ -24,8 +24,8 @@
 
 <?php include("head.php"); ?>
 
-<div class="w100 nav_hdorder clearfix">
-<div class="content"><div class="Invoice"><div class="INa1dd">
+<div class="w100 nav_hdorder clearfix clr">
+<div class="content"><div class="Invoice" style="background:#fff;"><div class="INa1dd">
 	<div class="w100">
 		<ul class="tab">
 			<li class="cur"><a href="">活动订单</a></li>
