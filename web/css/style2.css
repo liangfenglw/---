@@ -260,6 +260,8 @@ td.sbox_3_t6,td.sbox_3_t7,td.sbox_3_t8{	color:#f00;		font-size:16px;	}
 select.sel_t1{	border:1px solid #ccc;	height:32px;	line-height:32px;	margin:0 6px;	width:50px;	text-align:center;	text-indent:6px;	}
 select.sel_t1 option{		}
 .sbox_5 .WMain3_2>span{		color:#999999;	font-size:14px;	margin-left:10px;	}
+.btn_sub{		background:none;	border:none;	cursor:pointer;	}
+
 
 /*	问答任务列表	*/
 table.table_in1_2{	margin:0 auto;	border-left:1px solid #F2F2F2;	border-right:1px solid #F2F2F2;	}

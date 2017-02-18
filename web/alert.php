@@ -46,9 +46,30 @@
 
 <script type="text/javascript">
 $("#x").click(function(){
+
+/*
 	layer.msg('请求成功',{
 		time:2000
 	});
+	layer.open({
+		type: 1,
+		skin: 'layui-layer-demo', //样式类名
+		closeBtn: 1, //不显示关闭按钮
+		anim: 2,
+		time:5000,
+		shadeClose: true, //开启遮罩关闭
+		content: '内容'
+	});
+*/
+	
+	layer.open({
+		title: '提示'
+		,content: '请求成功'
+		,time: 30000
+		,btn: ""
+	});
+ 
+
 });
 </script>
 

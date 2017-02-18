@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>网络媒体_新闻任务 - 亚媒社</title>
+	<title>网络媒体_论坛 - 亚媒社</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
@@ -29,57 +29,32 @@
 <div class="content"><div class="Invoice">
 <div class="INa1dd"><div class="ndt">
 		
-	<!--	新闻任务	-->
+	<!--	论坛	-->
 	<div class="radius1">
-		<h3 class="title1"><strong><a href="#">新闻任务</a></strong></h3>
+		<h3 class="title1"><strong><a href="#">论坛</a></strong></h3>
 		
 		<div class="sbox_1 clearfix">
 			
 			<div class="sbox_1_w">
 				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_1"><strong>网站类型</strong></span>
+					<span class="l" data="option_1"><strong>发布类型</strong></span>
 					<div class="m">
 						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">全国门户</a></li>
-							<li><a href="">垂直行业</a></li>
-							<li><a href="">地方门户</a></li>
+							<li><a href="" class="cur">文字帖</a></li>
+							<li><a href="">图文帖</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_2"><strong>入口级别</strong></span>
+					<span class="l" data="option_2"><strong>指定效果</strong></span>
 					<div class="m">
 						<ul>
 							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">网站首页</a></li>
-							<li><a href="">频道首页</a></li>
-							<li><a href="">二级频道首页</a></li>
-							<li><a href="">三级频道首页</a></li>
-							<li><a href="">列表页入口</a></li>
-							<li><a href="">无入口</a></li>
+							<li><a href="">帖子加精（周数）</a></li>
+							<li><a href="">帖子置顶（天数）</a></li>
+							<li><a href="">版主发帖</a></li>
 						</ul>
 					</div>
-				</div>
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_3"><strong>入口形式</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">文字标题</a></li>
-							<li><a href="">焦点图片</a></li>
-							<li><a href="">图文混排</a></li>
-							<li><a href="">其他图片</a></li>
-							<li><a href="">通栏</a></li>
-							<li><a href="">文字链</a></li>
-							<li><a href="">画中画</a></li>
-							<li><a href="">Banner</a></li>
-							<li><a href="">Button</a></li>
-							<li><a href="">Floating</a></li>
-							<li><a href="">流媒体</a></li>
-						</ul>
-					</div>
-					<span class="r"><a href="">更多</a></span>
 				</div>
 				<div class="sbox_1_item clearfix">
 					<span class="l" data="option_4"><strong>覆盖区域</strong></span>
@@ -143,16 +118,12 @@
 					<span class="r"><a href="">更多</a></span>
 				</div>
 				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_6"><strong>会员价</strong></span>
+					<span class="l" data="option_6"><strong>推荐套餐</strong></span>
 					<div class="m">
 						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">50元以下</a></li>
-							<li><a href="">50-100</a></li>
-							<li><a href="">100-200</a></li>
-							<li><a href="">200-500</a></li>
-							<li><a href="">500-1000</a></li>
-							<li><a href="">1000以上</a></li>
+							<li><a href="" class="cur">全网覆盖</a></li>
+							<li><a href="">行业覆盖</a></li>
+							<li><a href="">地方覆盖</a></li>
 						</ul>
 					</div>
 					<span class="r"><a href="">更多</a></span>
@@ -180,13 +151,12 @@
 	<thead>
 		<tr>
 			<th class="sbox_3_t1" width="22%">资源名称</th>
-			<th class="sbox_3_t2" width="10%">入口形式</th>
-			<th class="sbox_3_t3" width="10%">入口级别</th>
-			<th class="sbox_3_t4" width="16%">正文带链接</th>
-			<th class="sbox_3_t5" width="10%">入口示意图</th>
+			<th class="sbox_3_t2" width="10%">发布类型</th>
+			<th class="sbox_3_t3" width="10%">指定效果</th>
+			<th class="sbox_3_t4" width="16%">示意图</th>
 			<th class="sbox_3_t6" width="10%">代理价</th>
 			<th class="sbox_3_t7" width="10%">会员价</th>
-			<th class="sbox_3_t8" width="10%">平台价</th>
+			<th class="sbox_3_t8" width="10%">市场价</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -194,9 +164,7 @@
 			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
 			<td class="sbox_3_t2">文字标题</td>
 			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t4"></td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
@@ -205,9 +173,7 @@
 			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
 			<td class="sbox_3_t2">文字标题</td>
 			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t4"></td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
@@ -216,9 +182,7 @@
 			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
 			<td class="sbox_3_t2">文字标题</td>
 			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t4"></td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
@@ -267,7 +231,7 @@
 		</div>
 		<div class="sbox_5">
 			<div class="WIn2">
-				<h2>新闻内容</h2>
+				<h2>论坛内容</h2>
 				<div class="WMain1">
 					<div class="WMain2">
 						<ul>
