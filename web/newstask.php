@@ -308,7 +308,7 @@
 										<p>还可输入<b>500</b>个字</p>
 									</div>
 								</div>
-								<div class="WMain3"><p><i class="LGntas"></i></p>
+								<div class="WMain3"><p><i class="LGntas"></i>&nbsp;</p>
 									 <label><input type="checkbox" name="admit" id="admit" />我已经阅读并同意云媒体交易平台习家规则</label>
 								</div>
 							</li>
