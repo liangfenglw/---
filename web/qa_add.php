@@ -22,6 +22,7 @@
 
 	<script type="text/javascript" src="js/main2.js"></script>
 
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
 </head>
 <body>
 

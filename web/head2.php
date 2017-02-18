@@ -117,7 +117,7 @@
         </li>
         <li>
             <div class="header">
-                <span class="label" id="sd5">电视媒体</span>					</div>x
+                <span class="label" id="sd5">电视媒体</span>					</div>
         </li>
         <li>
             <div class="header">

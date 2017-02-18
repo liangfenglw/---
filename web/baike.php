@@ -12,6 +12,8 @@
 <script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
 	<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
     <script type="text/javascript" charset="utf-8" src="zh-cn.js"></script>
+    
+<script type="text/javascript" src="js/jquery.tools.min.js"></script>
 </head>
 <body >
 
