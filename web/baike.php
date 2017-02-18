@@ -4,6 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style2.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script type="text/javascript" src="js/plugins.js"></script>
 <script src="js/jquery.touchslider.min.js"  type="text/javascript"></script>
@@ -95,10 +96,12 @@
                         <li>安全设置</li>
                     </ul>
                 </div>
-                <div style="margin:40px 0 80px 0; float:left; left:30%; position:relative;">
-                	<img src="img/WLButton.png" />
-                </div>
             </div>
+			
+			<div class="clr btn_sub_w">
+				<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
+			</div>
+			
 <script>
 $(function(){
 	$(".WMain1 .tab a").click(function(){

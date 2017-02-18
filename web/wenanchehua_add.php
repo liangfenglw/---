@@ -97,7 +97,7 @@
 								</div>
 								
 								<div class="WMain3 WMain3_2" style="amargin-top:45px;">
-									<input type="submit" name="submit" value="提交" class="sub5" />
+									<input type="submit" value="提交" class="sub5" />
 									<span style="margin-left:30px;">账户余额不足，<a href="">点此充值</a></span>
 								</div>
 								

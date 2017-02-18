@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>网络媒体_新闻任务 - 亚媒社</title>
+	<title>网络媒体_短视频 - 亚媒社</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
@@ -15,6 +15,10 @@
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/plugins.js"></script>
 	<script src="js/jquery.touchslider.min.js"  type="text/javascript"></script>
+
+	<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+	<script type="text/javascript" charset="utf-8" src="zh-cn.js"></script>
 
 	<script type="text/javascript" src="js/date.js"></script>
 	<script type="text/javascript" src="js/main2.js"></script>
@@ -29,9 +33,9 @@
 <div class="content"><div class="Invoice">
 <div class="INa1dd"><div class="ndt">
 		
-	<!--	新闻任务	-->
+	<!--	短视频	-->
 	<div class="radius1">
-		<h3 class="title1"><strong><a href="#">新闻任务</a></strong></h3>
+		<h3 class="title1"><strong><a href="#">短视频</a></strong></h3>
 		
 		<div class="sbox_1 clearfix">
 			
@@ -155,7 +159,6 @@
 							<li><a href="">1000以上</a></li>
 						</ul>
 					</div>
-					<span class="r"><a href="">更多</a></span>
 				</div>
 
 			</div>
@@ -179,11 +182,11 @@
 	<table class="" width="100%">
 	<thead>
 		<tr>
-			<th class="sbox_3_t1" width="22%">资源名称</th>
-			<th class="sbox_3_t2" width="10%">入口形式</th>
-			<th class="sbox_3_t3" width="10%">入口级别</th>
-			<th class="sbox_3_t4" width="16%">正文带链接</th>
-			<th class="sbox_3_t5" width="10%">入口示意图</th>
+			<th class="sbox_3_t1" width="22%">昵称</th>
+			<th class="sbox_3_t2" width="10%">平台</th>
+			<th class="sbox_3_t3" width="10%">类型</th>
+			<th class="sbox_3_t4" width="16%">粉丝量</th>
+			<th class="sbox_3_t5" width="10%">性别</th>
 			<th class="sbox_3_t6" width="10%">代理价</th>
 			<th class="sbox_3_t7" width="10%">会员价</th>
 			<th class="sbox_3_t8" width="10%">平台价</th>
@@ -191,34 +194,51 @@
 	</thead>
 	<tbody>
 		<tr>
-			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
-			<td class="sbox_3_t2">文字标题</td>
-			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t1"><img src="/images/pic5.jpg" /> 贾乃亮</td>
+			<td class="sbox_3_t2">一直播</td>
+			<td class="sbox_3_t3">影视</td>
+			<td class="sbox_3_t4">253</td>
+			<td class="sbox_3_t5">男</td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
 		</tr>
 		<tr>
-			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
-			<td class="sbox_3_t2">文字标题</td>
-			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t1"><img src="/images/pic5.jpg" /> 贾乃亮</td>
+			<td class="sbox_3_t2">一直播</td>
+			<td class="sbox_3_t3">影视</td>
+			<td class="sbox_3_t4">253</td>
+			<td class="sbox_3_t5">男</td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
 		</tr>
 		<tr>
-			<td class="sbox_3_t1"><img src="/images/logo_sina.jpg" /> 新浪新闻</td>
-			<td class="sbox_3_t2">文字标题</td>
-			<td class="sbox_3_t3">无入口</td>
-			<td class="sbox_3_t4">不能带图片、网址、
-				二维码、联系方式等</td>
-			<td class="sbox_3_t5"></td>
+			<td class="sbox_3_t1"><img src="/images/pic5.jpg" /> 贾乃亮</td>
+			<td class="sbox_3_t2">一直播</td>
+			<td class="sbox_3_t3">影视</td>
+			<td class="sbox_3_t4">253</td>
+			<td class="sbox_3_t5">男</td>
+			<td class="sbox_3_t6" >￥228.00</td>
+			<td class="sbox_3_t7" >￥228.00</td>
+			<td class="sbox_3_t8" >￥228.00</td>
+		</tr>
+		<tr>
+			<td class="sbox_3_t1"><img src="/images/pic5.jpg" /> 贾乃亮</td>
+			<td class="sbox_3_t2">一直播</td>
+			<td class="sbox_3_t3">影视</td>
+			<td class="sbox_3_t4">253</td>
+			<td class="sbox_3_t5">男</td>
+			<td class="sbox_3_t6" >￥228.00</td>
+			<td class="sbox_3_t7" >￥228.00</td>
+			<td class="sbox_3_t8" >￥228.00</td>
+		</tr>
+		<tr>
+			<td class="sbox_3_t1"><img src="/images/pic5.jpg" /> 贾乃亮</td>
+			<td class="sbox_3_t2">一直播</td>
+			<td class="sbox_3_t3">影视</td>
+			<td class="sbox_3_t4">253</td>
+			<td class="sbox_3_t5">男</td>
 			<td class="sbox_3_t6" >￥228.00</td>
 			<td class="sbox_3_t7" >￥228.00</td>
 			<td class="sbox_3_t8" >￥228.00</td>
@@ -231,85 +251,91 @@
 		<div class="sbox_4 clearfix">
 			<div class="WIn2">
 				<h2>已选媒体</h2>
-				<table class="table_in4" width="100%" border="0"><tbody>
-					<tr class="WIna1">
-						<td class="WIna2">媒体名称</td>
-						<td class="WIna3">介绍</td>
-						<td class="WIna4">价格</td>
-						<td class="WIna4">删除</td>
+				<table width="100%" border="0" class="table_in3">
+				<thead>
+					<tr>
+						<th>媒体名称</th>
+						<th>介绍</th>
+						<th>价格</th>
+						<th>删除</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td>80元</td>
+						<td><a href="">×</a></td>
 					</tr>
 					<tr>
-						<td class="WIna5"><img src="img/bn66.png">新浪网</td>
-						<td class="WIna6">新浪网XXXXXXXXXXXXXX</td>
-						<td class="WIna7">80元</td>
-						<td class="WIna8"><a href="">×</a></td>
+						<td><img src="img/bn66.png"/>新浪网</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td>80元</td>
+						<td><a href="">×</a></td>
 					</tr>
 					<tr>
-						<td class="WIna5"><img src="img/bn66.png">新浪网</td>
-						<td class="WIna6">新浪网*****</td>
-						<td class="WIna7">100元</td>
-						<td class="WIna8"><a href="">×</a></td>
+						<td><img src="img/bn66.png"/>新浪网</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td>80元</td>
+						<td><a href="">×</a></td>
 					</tr>
 					<tr>
-						<td class="WIna5"><img src="img/bn66.png">新浪网</td>
-						<td class="WIna6">新浪网*****</td>
-						<td class="WIna7">100元</td>
-						<td class="WIna8"><a href="">×</a></td>
+						<td><img src="img/bn66.png"/>新浪网</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td>80元</td>
+						<td><a href="">×</a></td>
 					</tr>
-					<tr>
-						<td class="WIna5"><img src="img/bn66.png">新浪网</td>
-						<td class="WIna6">新浪网*****</td>
-						<td class="WIna7">100元</td>
-						<td class="WIna8"><a href="">×</a></td>
-					</tr>	
-				</tbody></table>
+				</tbody>
+				</table>
+
 			</div>
+
 		</div>
 		<div class="sbox_5">
 			<div class="WIn2">
-				<h2>新闻内容</h2>
+				<h2>创建短视频</h2>
 				<div class="WMain1">
-					<div class="WMain2">
+					<div class="WMain2 WMain2_weixin">
 						<ul>
 							<li style="display:block;">
-								<div class="WMain3"><p><i class="LGntas">*</i>活动标题:</p>
-									 <input type="text" name="textfield" id="textfield" placeholder="可输入25个汉字"  class="WIFN1"/>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>合作形式:</p>
+									<select class="sel_2"><option value="">专场</option>
+										<option value="">11111</option>
+										<option value="">2</option>
+									</select>
 								</div>
-								<div class="WMain3"><p><i class="LGntas">*</i>稿件内容:</p>
-									 <label><input type="radio" name="gao" checked />外部连接</label>
-									 <label><input type="radio" name="gao" />上传文档</label>
-									 <label><input type="radio" name="gao" />内部编辑</label>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直播标题:</p>
+									<input type="text" name="textfield" id="textfield" class="txt6" style="width:50%;"/>
 								</div>
-								<div class="WMain3"><p><i class="LGntas">*</i>外部链接:</p>
-									 <input type="text" name="textfield" id="textfield" class="WIFN1"/>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>具体形式:</p>
+									<label><input type="checkbox" name="checkboxname" />活动现场直播</label>
+									<label><input type="checkbox" name="checkboxname" />产品使用</label>
+									<label><input type="checkbox" name="checkboxname" />店铺体验</label>
+									<label><input type="checkbox" name="checkboxname" />游戏直播</label>
+									<label><input type="checkbox" name="checkboxname" />其他</label>
+								</div>								
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直播内容:</p>
+									<div><textarea name="" class="tarea_1" style="width:75%;"></textarea></div>
+								</div>								
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直播地点:</p>
+									<input type="text" name="textfield" id="textfield" class="txt6" style="width:50%;" />
 								</div>
-								<div class="WMain3 WMain3_1"><p><i class="LGntas"></i>关键字:</p>
-									<div id="key_input">
-										<input type="text" name="textfield" id="textfield" class="WIFN1" placeholder="关键字不超过100个字符，多个关键字请用。隔开" />
-										<p>还可输入<b>100</b>个字</p>
-									</div>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>开始时间:</p>
+									<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"/> &nbsp;至&nbsp;
+									<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2"/>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
-									 <input type="text" name="textfield" id="datepicker1" class="txt2"/>
-									 <select class="sel_t1 options_h"></select>时
-									 <select class="sel_t1 options_m"></select>分
-<!--	<option value="00">00</option>	-->
-									 <span>请选择当前时间15分钟后，7天之内的时间</span>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>预约结果反馈时间:</p>
+									<input type="text" name="textfield" id="datepicker3" class="txt2 txt2_2"/>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>截止时间:</p>
-									<input type="text" name="textfield" id="datepicker2" class="txt2"/>
-									<select class="sel_t1 options_h"></select>时
-									<select class="sel_t1 options_m"></select>分
-									<span>请选择开始时间24小时后，7天之内的时间</span>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>上传附件:</p>
+									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button><label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
+									<br/>
+									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；建议尺寸：单图文、多图文第一条，900 * 500像素；多图文第2~N条，200*200像素。</span>
 								</div>
-								<div class="WMain3 WMain3_1"><p><i class="LGntas">*</i>新闻备注:</p>
-									<div id="xinwenbeizhu">
-										<textarea name="textfield" id="textfield" class="WIFN2"/></textarea>
-										<p>还可输入<b>500</b>个字</p>
-									</div>
-								</div>
-								<div class="WMain3"><p><i class="LGntas"></i>&nbsp;</p>
-									 <label><input type="checkbox" name="admit" id="admit" />我已经阅读并同意云媒体交易平台习家规则</label>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>是否短信通知:</p>
+									<label><input type="checkbox" name="ifsms" />手机短信通知</label>
+									<div><label><input type="checkbox" name="admit" id="admit" />同意相关 <a href="">服务协议</a></label></div>
+									<br/>
 								</div>
 							</li>
 						</ul>
@@ -318,50 +344,7 @@
 				<div class="clr btn_sub_w">
 					<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
 				</div>
-				
-<script type="text/javascript">
-/*	小时、分钟 列表	*/
-	var options_h="";
-	var options_m="";
-	for(i=0;i<24;i++){
-		if(i<10){	options_h+="<option value=0'"+i+"'>0"+i+"</option>";
-		}else{		options_h+="<option value='"+i+"'>"+i+"</option>";			}
-	}
-	$(".options_h").html(options_h);
-	
-	for(i=0;i<60;i++){
-		if(i<10){	options_m+="<option value=0'"+i+"'>0"+i+"</option>";
-		}else{		options_m+="<option value='"+i+"'>"+i+"</option>";			}
-	}
-	$(".options_m").html(options_m);
-</script>
-<script type="text/javascript">
-/*	还可输入字数提示	*/
-	var len_input = 100 ;
-	var len_textarea = 500 ;
-	$('#key_input input').keyup(function(){ 
-		var txtLeng = $('#key_input input').val().length;
-		if( txtLeng>len_input ){  
-			$('#key_input p b').text('0'); 
-			var fontsize = $('#key_input input').val().substring(0,len_input);
-			$('#key_input input').val( fontsize );
-		}else{
-			$('#key_input p b').text(len_input-txtLeng);
-		}
-	});
-	$('#xinwenbeizhu textarea').keyup(function(){ 
-		var txtLeng = $('#xinwenbeizhu textarea').val().length;
-		if( txtLeng>len_textarea ){  
-			$('#xinwenbeizhu p b').text('0'); 
-			var fontsize = $('#xinwenbeizhu textarea').val().substring(0,len_textarea);
-			$('#xinwenbeizhu textarea').val( fontsize );
-		}else{
-			$('#xinwenbeizhu p b').text(len_textarea-txtLeng);
-		}
-	});
-
-</script>
-<script type="text/javascript">
+	<script>
 	$(function(){
 		$(".WMain1 .tab a").click(function(){
 			$(this).addClass('on').siblings().removeClass('on');
@@ -384,7 +367,7 @@
 			
 		  }
 	});
-</script>
+	</script>
 
 			</div>	
 		</div>
@@ -407,6 +390,13 @@ var picker1 = new Pikaday({
 });
 var picker2 = new Pikaday({
 	field: document.getElementById('datepicker2'),
+	firstDay: 1,
+	minDate: new Date('2000-01-01'),
+	maxDate: new Date('2020-12-31'),
+	yearRange: [2000,2020]
+});
+var picker3 = new Pikaday({
+	field: document.getElementById('datepicker3'),
 	firstDay: 1,
 	minDate: new Date('2000-01-01'),
 	maxDate: new Date('2020-12-31'),
@@ -452,7 +442,6 @@ $(".sbox_1_item .r a").click(function(){
 	return false;
 });
 </script>
-
 
 </body>
 </html>

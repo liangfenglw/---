@@ -260,6 +260,7 @@ td.sbox_3_t6,td.sbox_3_t7,td.sbox_3_t8{	color:#f00;		font-size:16px;	}
 select.sel_t1{	border:1px solid #ccc;	height:32px;	line-height:32px;	margin:0 6px;	width:50px;	text-align:center;	text-indent:6px;	}
 select.sel_t1 option{		}
 .sbox_5 .WMain3_2>span{		color:#999999;	font-size:14px;	margin-left:10px;	}
+.btn_sub_w{		padding:40px 0 20px;	text-align:center;		}
 .btn_sub{		background:none;	border:none;	cursor:pointer;	}
 
 
@@ -304,7 +305,7 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 	border:1px solid #ddd;	width:80px;	cursor:pointer;	}
 .WMain2_weixin .WMain3_1>div{	margin-left:157px;	}
 .WMain2_weixin .WMain3_2>div{	margin-left:157px;	}
-.tarea_1{	width:62%;	height:133px;	padding:5px 6px;	border:1px solid #CCCCCC;	border-radius:5px;	line-height:1.6;	}
+.tarea_1{	width:62%;	height:133px;	padding:5px 6px;	aaborder:1px solid #CCCCCC;	border:1px solid #e5e5e5;	border-radius:5px;	line-height:1.6;	}
 .WMain2_weixin .WMain3 a{	color:#2180e0;	text-decoration:underline;	}
 .left_div{		display:block;	margin-right:250px;		margin-right:26%;	}
 .left_div .txt6{	width:43%;	}
@@ -321,7 +322,7 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 /*	添加文案策划任务	*/
 .editor_w #editor{	width:80%;	}
 #radio_a1{		}
-#radio_a1 label{	float:left;		height:35px;	line-height:35px;	padding:0 10px;	color:#333;	background:#fff;	border-radius:3px;	
+#radio_a1 label{	float:left;		height:32px;	line-height:32px;	padding:0 10px;	color:#333;	background:#fff;	border-radius:3px;	
 	text-align:center;	margin:0 18px 5px 0;	position:relative;		overflow:hidden;	cursor:pointer;	}
 #radio_a1 label input{	position:absolute;	left:-110px;	top:12px;			}
 #radio_a1 label.cur{	color:#fff;	background:#2D9FDD;			}
@@ -369,10 +370,19 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 .table_mps td:nth-child(8){		font-weight:700;	font-size:16px;	}
 .table_mps th.bg1{		background:#EDEEF0;		}
 .table_mps td.bg1{		background:#FBFBFD;		padding-bottom:5px;		}
-
-
-
 .mps_item .r{	width:90%;	float:right;	}
+
+/*	发布公众号任务	*/
+.warm{		color:#ff4a50;	line-height:1.5;	padding-top:4px;	}
+.WMain2_weixin .w50{	width:50%;	min-width:350px;	}
+.w50 .txt6{	width:45%;	}
+
+/*	短视频	*/
+td.sbox_3_t1{	font-size:14px;	}
+td.sbox_3_t1 img{	margin-right:5px;	}
+
+
+
 
 
 

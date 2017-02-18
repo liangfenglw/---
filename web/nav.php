@@ -15,6 +15,8 @@
 	<a href="baike.php">网络-百科</a>
 
 	<br/>
+	<a href="shortvideo.php" title="网络媒体/短视频.psd">短视频</a>
+	<a href="fabugongzhonghao.php" title="网络媒体/发布公众号任务.psd">发布公众号任务</a>
 	<a href="bbs.php" title="网络媒体/论坛.psd">论坛</a>
 	<a href="miaopai_search.php" title="网络媒体/秒拍任务_搜索至顶.psd">秒拍任务_搜索至顶</a>
 	<a href="wenanchehua_add.php" title="网络媒体/添加文案策划任务.psd">添加文案策划任务</a>
