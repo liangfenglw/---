@@ -15,6 +15,11 @@
 	<a href="baike.php">网络-百科</a>
 
 	<br/>
+	<a href="bbs.php" title="网络媒体/论坛.psd">论坛</a>
+	<a href="miaopai_search.php" title="网络媒体/秒拍任务_搜索至顶.psd">秒拍任务_搜索至顶</a>
+	<a href="wenanchehua_add.php" title="网络媒体/添加文案策划任务.psd">添加文案策划任务</a>
+	<a href="weibo_dingdan.php" title="网络媒体/微博订单.psd">微博订单</a>
+	<a href="weibo_yingxiao.php" title="网络媒体/微博营销.psd">微博营销</a>
 	<a href="weixin_yingxiao.php" title="网络媒体/微信营销.psd">微信营销</a>
 	<a href="qa_list.php" title="网络媒体/问答任务列表.psd">问答任务列表</a>
 	<a href="qa_add.php" title="网络媒体/问答任务添加.psd">问答任务添加</a>
@@ -22,7 +27,7 @@
 	
 	<br/>
 	<a href="huodongorder.php" title="媒体供应商_活动订单.psd">活动订单</a>
-
+	
 	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>
 
