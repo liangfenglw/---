@@ -135,10 +135,12 @@
                         <li>安全设置</li>
                     </ul>
                 </div>
-                <div style="margin:40px 0 80px 0; float:left; left:30%; position:relative;">
-                	<img src="img/WLButton.png" />
-                </div>
             </div>
+			
+			<div class="clr btn_sub_w">
+				<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
+			</div>
+			
 <script type="text/javascript">
 
     //实例化编辑器
@@ -251,41 +253,6 @@
     }
 </script>
 		</div>	
-
-
-
-
-
-
-
-
-		<div style="height:1000px;"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 	</div>
 	

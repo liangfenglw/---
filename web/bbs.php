@@ -279,10 +279,10 @@
 						</ul>
 					</div>
 				</div>
-					<div style="margin:40px 0 20px 0; float:left; left:30%; position:relative;">
-						<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
-					</div>
-
+				<div class="clr btn_sub_w">
+					<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
+				</div>
+				
 <script type="text/javascript">
 /*	小时、分钟 列表	*/
 	var options_h="";

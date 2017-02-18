@@ -380,9 +380,10 @@
 						</ul>
 					</div>
 				</div>
-					<div style="margin:40px 0 80px 0; float:left; left:30%; position:relative;">
-						<a href=""><img src="img/WLButton.png" /></a>
-					</div>
+				<div class="clr btn_sub_w">
+					<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
+				</div>
+				
 	<script>
 	$(function(){
 		$(".WMain1 .tab a").click(function(){
