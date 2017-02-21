@@ -150,11 +150,11 @@ if( $('#datatable1').length>0 ){
 
 
 /*	媒体供应商_活动订单	*/
-	$(".nav_hdorder .tab li a").click(function(){
+/*	$(".nav_hdorder .tab li a").click(function(){
 		$(this).parent("li").addClass("cur").siblings("li").removeClass("cur");
 		return false;
 	});
-
+*/
 
 
 

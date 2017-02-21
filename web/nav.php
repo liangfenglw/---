@@ -35,7 +35,9 @@
 	<br/>
 	<strong>媒体供应商：</strong>
 	<a href="huodongorder.php" title="媒体供应商_活动订单.psd">媒体供应商_活动订单</a>
-	<a href="huodongorder.php" title="媒体供应商_用户中心.psd">媒体供应商_用户中心</a>
+	<a href="user_center.php" title="媒体供应商_用户中心.psd">媒体供应商_用户中心</a>
+	<a href="bill_inquiry.php" title="媒体供应商_账单查询.psd">媒体供应商_账单查询</a>
+	<a href="resource_management.php" title="媒体供应商_资源管理.psd">媒体供应商_资源管理</a>
 	
 	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>

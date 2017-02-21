@@ -29,11 +29,11 @@
 <div class="content"><div class="Invoice" style="background:#fff;"><div class="INa1dd">
 	<div class="w100">
 		<ul class="tab">
-			<li class="cur"><a href="">活动订单</a></li>
+			<li class="cur"><a href="huodongorder.php">活动订单</a></li>
 			<li><a href="">预约订单</a></li>
-			<li><a href="">资源管理</a></li>
-			<li><a href="">账单查询</a></li>
-			<li><a href="">用户中心</a></li>
+			<li><a href="resource_management.php">资源管理</a></li>
+			<li><a href="bill_inquiry.php">账单查询</a></li>
+			<li><a href="user_center.php">用户中心</a></li>
 		<ul>
 	</div>
 </div></div></div>

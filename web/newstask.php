@@ -18,8 +18,10 @@
 
 	<script type="text/javascript" src="js/date.js"></script>
 	<script type="text/javascript" src="js/main2.js"></script>
+	<script type="text/javascript" src="js/layer/layer.js"></script>
 
 <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
 
 <link rel="stylesheet" href="//apps.bdimg.com/libs/jqueryui/1.10.4/css/jquery-ui.min.css">
 <script src="//apps.bdimg.com/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
@@ -46,10 +48,10 @@
 					<div class="m">
 						<ul class="sortable">
 							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">全国门户<i class="del"></i></a></li>
+							<li><a href="">全国门户<i class="del" ></i></a></li>
 							<li><a href="">垂直行业<i class="del"></i></a></li>
 							<li><a href="">地方门户</a></li>
-							<li class="add"><a href="" target="_blank">添加</a></li>
+							<li class="add"><a href="fenleixiugai2.php" target="_blank">添加</a></li>
 						</ul>
 					</div>
 				</div>
@@ -443,14 +445,35 @@ $(".sortable").sortable();											/*	分类 左右拖拽	*/
 $(".sortable").disableSelection();
 
 
+$(".sbox_1_item .m ul li a i").click(function () {            /*	点击 右上角x 移除分类	*/
+			var curli=$(this).parents("li");
+			var cura=$(this).parent().text();
+            //询问框
+            layer.confirm('确认删除 '+cura+' ？', {
+                btn: ['确认','取消'] //按钮
+            }, function(){
+                //发送ajax请求删除
+//                debugger
+//				$(this).parents("li").remove();//移除结构
+				curli.remove();//移除结构
+                layer.msg(cura+' 删除成功', {icon: 1});
 
-$(".sbox_1_item .m ul li a i").click(function(){			/*	点击 右上角x 移除分类	*/
-	$(this).parents("li").remove();
-	return false;
-});
+            }, function(){
+                /*return false;
+                layer.msg('也可以这样', {
+                    time: 20000, //20s后自动关闭
+                    btn: ['明白了', '知道了']
+                });*/
+            });
+
+          
+
+            return false;
+        });
+
 $(".sbox_1_item .m ul li.add a").unbind("click").click(function(){			/*	移除 添加按钮 点击事件并绑定新事件	*/
-	console.log("xx");
-	return false;
+//	console.log("xx");
+//	return false;
 });
 
 
