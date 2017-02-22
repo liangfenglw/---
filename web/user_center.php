@@ -31,7 +31,7 @@
 
 <!--用户中心-->
 <div class="content"><div class="Invoice">
-<div class="INa1dd"><div class="ndt">
+<div class="INa1dd"><div class="ndt" style="margin-top:20px;">
 	<div class="Ifapiao"><h2>帐户一览</h2></div>
     <div class="lanrenzhijia">
 	<div class="tab">
