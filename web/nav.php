@@ -40,6 +40,12 @@
 	<a href="resource_management.php" title="媒体供应商_资源管理.psd">媒体供应商_资源管理</a>
 	
 	<br/>
+	<strong>个人及代理商：</strong>
+	<a href="huodonglist_paidan.php" title="个人及代理商_活动列表( 派单类 ).psd">活动列表( 派单类 )</a>
+	<a href="huodonglist_yuyue.php" title="个人及代理商_活动列表( 预约类 ).psd">活动列表( 预约类 )</a>
+	<a href="my_bill.php" title="个人及代理商_我的账单.psd">个人及代理商_我的账单</a>
+	
+	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>
 
 </div>
