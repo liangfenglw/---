@@ -2,6 +2,33 @@
 $(document).ready(function(){
 
       $(".header").click(function()
+      { var arrow = $(this).find("span.arrow");
+
+        if(arrow.hasClass("up"))
+        {
+          arrow.removeClass("up");
+          arrow.addClass("down");
+        }
+        else if(arrow.hasClass("down"))
+        {
+          arrow.removeClass("down");
+          arrow.addClass("up");
+        }
+		if ($(this).attr('class') != 'active'){
+		  $('.menu').slideUp();
+		  $(this).next().slideToggle();
+		  $('.menu li').removeClass('active');
+		  $(this).addClass('active');
+		}
+		
+      });
+});
+
+
+/* 
+$(document).ready(function(){
+
+      $(".header").click(function()
       {
         var arrow = $(this).find("span.arrow");
 
@@ -15,30 +42,27 @@ $(document).ready(function(){
           arrow.removeClass("down");
           arrow.addClass("up");
         }
-
-        $(this).parent().find(".menu").slideToggle();
+		 $(this).next(".menu").slideToggle("slow") 
       });
     });
 
-/* 
-$(document).ready(function () {
-  $('.nav > li > a').click(function(){
-    if ($(this).attr('class') != 'active'){
-      $('.nav li ul').slideUp();
-      $(this).next().slideToggle();
-      $('.nav li a').removeClass('active');
-      $(this).addClass('active');
-    }
-  });
-});
-
 Top Stats Show Hide */
 $(document).ready(function(){
+	 $(".sidepanel").css("display","none");
+	 $(".IMenuda").css("display","none");
     $(".sidepanel-open-button").click(function(){
-        $(".sidepanel").toggle(100);
+        $(".sidepanel").toggle(100); 
     });
 });
 
+$(document).ready(function(){  
+    $(".menu a").each(function(){  
+        $this = $(this);  
+        if($this[0].href==String(window.location)){  
+            $this.addClass("hover");  
+        }  
+    });  
+}); 
 
 
 /* Sidebar Show-Hide On Mobile */

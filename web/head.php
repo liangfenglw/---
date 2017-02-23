@@ -63,6 +63,39 @@
                         <p>微信号：123456</p>
                     </div>
                 </a></li>
+                <li><a href="">
+                	<div class="IOimg"><img src="img/bn66.png" />
+                    <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
+                    <div class="IOtext">
+                    	<h3>定单标题</h3>
+                        <p>微信号：123456</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                	<div class="IOimg"><img src="img/bn66.png" />
+                    <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
+                    <div class="IOtext">
+                    	<h3>定单标题</h3>
+                        <p>微信号：123456</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                	<div class="IOimg"><img src="img/bn66.png" />
+                    <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
+                    <div class="IOtext">
+                    	<h3>定单标题</h3>
+                        <p>微信号：123456</p>
+                    </div>
+                </a></li>
+                <li><a href="">
+                	<div class="IOimg"><img src="img/bn66.png" />
+                    <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
+                    <div class="IOtext">
+                    	<h3>定单标题</h3>
+                        <p>微信号：123456</p>
+                    </div>
+                </a></li>
+                
             </ul>
             <div class="IObu"><input type="submit" name="button" id="button" value="下一步" class="TOUbutton"/></div>
         </div>
@@ -76,7 +109,7 @@
             <div class="header">
                 <span class="label" id="sd1">网络媒体</span>
                 <span class="arrow up"></span>					</div>
-            <ul>
+            <ul class="menu">
                 <li><a href=""><div class="nd1n">新闻发布</div></a></li>
                 <li><a href=""><div class="nd2n">百科营销</div></a></li>
                 <li><a href=""><div class="nd3n">短视频</div></a></li>
@@ -93,7 +126,7 @@
             <div class="header">
                 <span class="label" id="sd3">户外媒体</span>
                 <span class="arrow up"></span>					</div>
-            <ul>
+            <ul class="menu">
                 <li><a href=""><div class="nd1">地标媒体</div></a></li>
                 <li><a href=""><div class="nd2">户外大牌</div></a></li>
                 <li><a href=""><div class="nd3">户外频媒</div></a></li>
