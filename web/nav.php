@@ -46,6 +46,14 @@
 	<a href="my_bill.php" title="个人及代理商_我的账单.psd">个人及代理商_我的账单</a>
 	
 	<br/>
+	<strong>新增页面：</strong>
+	<a href="order_payment.php" title="定单支付.psd">定单支付</a>
+	<a href="order_payment_1.php" title="定单支付1.psd">定单支付1（交易成功）</a>
+	<a href="person_safe.php" title="个人-安全设置.psd">个人-安全设置</a>
+	
+	
+	
+	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>
 
 </div>
