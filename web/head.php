@@ -110,8 +110,8 @@
                 <span class="label" id="sd1">网络媒体</span>
                 <span class="arrow up"></span>					</div>
             <ul class="menu">
-                <li><a href=""><div class="nd1n">新闻发布</div></a></li>
-                <li><a href=""><div class="nd2n">百科营销</div></a></li>
+                <li><a href="newstask.php"><div class="nd1n">新闻发布</div></a></li>
+                <li><a href="baike.php"><div class="nd2n">百科营销</div></a></li>
                 <li><a href=""><div class="nd3n">短视频</div></a></li>
                 <li><a href=""><div class="nd4n">公众号</div></a></li>
                 <li><a href=""><div class="nd5n">论坛</div></a></li>
@@ -169,4 +169,16 @@
 
 <script type="text/javascript"> 
 var t1=TouchScroll('apDiv1',{vOffset:0,mouseWheel:true,keyPress:false})
+
+$(function(){
+	$(".menu a").each(function(){  
+		var href1 = $(this).attr("href");
+		var href2 = window.location.href;
+		if( href2.indexOf(href1)>0 ){
+			$(this).parents(".menu").prev(".header").trigger("click");
+			$(this).parent("li").addClass("cur");
+		}
+    });
+});
+
 </script>
