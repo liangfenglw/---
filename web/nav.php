@@ -51,6 +51,8 @@
 	<a href="order_payment_1.php" title="定单支付1.psd">定单支付1（交易成功）</a>
 	<a href="person_safe.php" title="个人-安全设置.psd">个人-安全设置</a>
 	<a href="person_safe_email.php" title="个人-安全设置-绑定邮箱.psd">个人-安全设置-绑定邮箱</a>
+	<a href="person_safe_question.php" title="个人-安全设置-保密问题.psd">个人-安全设置-保密问题</a>
+	<a href="person_safe_changepass.php" title="个人-安全设置-修改密码.psd">个人-安全设置-修改密码</a>
 	
 	
 	

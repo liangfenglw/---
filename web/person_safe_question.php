@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>个人-安全设置-绑定邮箱 - 亚媒社</title>
+    <title>个人-安全设置-保密问题 - 亚媒社</title>
     <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
     <link href="css/style2.css" rel="stylesheet" type="text/css" />
@@ -17,7 +17,7 @@
 
 <?php include("head.php"); ?>
 
-<!--个人-安全设置-绑定邮箱-->
+<!--个人-安全设置-保密问题-->
 
 <div class="content"><div class="Invoice">
 <div class="INa1dd"><div class="ndt" style="margin-top:40px;padding-bottom:180px;">
@@ -38,9 +38,35 @@
 					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>会员帐号：</p>
 						gzanteng@qq.com
 					</div>
-					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>新邮箱地址：</p>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>兴趣爱好类：</p>
+						<select class="sel_2">
+							<option value="">请选择问题</option>
+							<option value="">请选择问题请选择问题1</option>
+							<option value="">请选择问题2</option>
+						</select>
+					</div>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>您的回答：</p>
 						<input type="text" name="textfield" id="textfield" class="txt6">
-						<div><span>输入有效的邮箱地址，以便接收系统邮件通知, 示例：cndns@163.com</span></div>
+					</div>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>家庭工作类：</p>
+						<select class="sel_2">
+							<option value="">请选择问题</option>
+							<option value="">请选择问题请选择问题1</option>
+							<option value="">请选择问题2</option>
+						</select>
+					</div>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>您的回答：</p>
+						<input type="text" name="textfield" id="textfield" class="txt6">
+					</div>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>教育杂项类：</p>
+						<select class="sel_2">
+							<option value="">请选择问题</option>
+							<option value="">请选择问题请选择问题1</option>
+							<option value="">请选择问题2</option>
+						</select>
+					</div>
+					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>您的回答：</p>
+						<input type="text" name="textfield" id="textfield" class="txt6">
 					</div>
 					<div class="WMain3 WMain3_2 clearfix" style="margin-top:50px;">
 						<input type="submit" value="提交" class="sub5">
