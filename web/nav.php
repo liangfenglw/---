@@ -53,6 +53,8 @@
 	<a href="person_safe_email.php" title="个人-安全设置-绑定邮箱.psd">个人-安全设置-绑定邮箱</a>
 	<a href="person_safe_question.php" title="个人-安全设置-保密问题.psd">个人-安全设置-保密问题</a>
 	<a href="person_safe_changepass.php" title="个人-安全设置-修改密码.psd">个人-安全设置-修改密码</a>
+	<a href="xitongxiaoxi.php" title="">最新消息</a>
+	<a href="back_pass.php" title="">找回密码</a>
 	
 	
 	

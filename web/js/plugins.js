@@ -24,29 +24,7 @@ $(document).ready(function(){
       });
 });
 
-
-/* 
-$(document).ready(function(){
-
-      $(".header").click(function()
-      {
-        var arrow = $(this).find("span.arrow");
-
-        if(arrow.hasClass("up"))
-        {
-          arrow.removeClass("up");
-          arrow.addClass("down");
-        }
-        else if(arrow.hasClass("down"))
-        {
-          arrow.removeClass("down");
-          arrow.addClass("up");
-        }
-		 $(this).next(".menu").slideToggle("slow") 
-      });
-    });
-
-Top Stats Show Hide */
+/* Top Stats Show Hide */
 $(document).ready(function(){
 	 $(".sidepanel").css("display","none");
 	 $(".IMenuda").css("display","none");
