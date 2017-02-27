@@ -59,7 +59,11 @@
 	
 	<br/>
 	<strong>电视媒体：</strong>
-	<a href="tv.php" title="电视媒体.psd">电视媒体</a>
+	<a href="tv.php" title="电视媒体.psd">电视媒体( 和 广播媒体 一样 )</a>
+	
+	<br/>
+	<strong>记者预约：</strong>
+	<a href="jizhe_yuyue.php" title="记者预约.psd">记者预约</a>
 	
 	
 	<br/>

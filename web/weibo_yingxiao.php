@@ -344,8 +344,12 @@
 									<div><textarea name="" class="tarea_1"></textarea></div>
 								</div>								
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发配图:</p>
-									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button><label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
-									<br/>
+									<div class="txt_up">
+										<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
+										<input type="file" name="input_file" class="input_file" id="input_file" />
+										<input type="text" class="path_file" id="path_file" readonly="readonly" />
+										<label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
+									</div>
 									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；建议尺寸：单图文、多图文第一条，900 * 500像素；多图文第2~N条，200*200像素。</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>订单备注:</p>
@@ -353,8 +357,11 @@
 									<span>选填，您可以进一步明确发布要求。</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>正品证明:</p>
-									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
-									<br/>
+									<div class="txt_up">
+										<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
+										<input type="file" name="input_file2" class="input_file" id="input_file2" />
+										<input type="text" class="path_file" id="path_file2" readonly="readonly" />
+									</div>
 									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；若您推广的产品为知名品牌，请务必上传正品证明供平台审核。</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>是否短信通知:</p>
@@ -406,6 +413,20 @@
 <?php include("foot.php"); ?>
 
 <script type="text/javascript">
+/*	上传文件右边显示文件名	*/
+$("#input_file").change(function(){
+	var path=$(this).val();
+	var path1 = path.lastIndexOf("\\");
+	var name = path.substring(path1+1);
+	$("#path_file").val(name);
+})
+$("#input_file2").change(function(){
+	var path=$(this).val();
+	var path1 = path.lastIndexOf("\\");
+	var name = path.substring(path1+1);
+	$("#path_file2").val(name);
+})
+
 /*	日历	*/
 var picker1 = new Pikaday({
 	field: document.getElementById('datepicker1'),

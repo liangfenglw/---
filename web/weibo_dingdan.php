@@ -58,17 +58,25 @@
 									<span>请填写产品、品牌或推广活动（时间、地点及活动内容）简介，让预约对象大致了解此次推广活动，请勿超过1000字</span>
 								</div>								
 								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
-									<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"/> &nbsp;至&nbsp;
-									<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2"/>
-									<span style="margin:0 0 0 15px;">请选择当前时间15分钟后，7天之内的时间</span>
+									<div>
+										<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"/> &nbsp;至&nbsp;
+										<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2"/>
+										<span class="remark">请选择当前时间15分钟后，7天之内的时间</span>
+									</div>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>预约结果反馈时间:</p>
-									<input type="text" name="textfield" id="datepicker3" class="txt2 txt2_2"/> 
-									<span style="margin:0 0 0 15px;">我们将在反馈时间之前，告知您所选择的网红是否接受您的预约订单。反馈时间必须晚于当前时间24小时。</span>
+									<div>
+										<input type="text" name="textfield" id="datepicker3" class="txt2 txt2_2"/> 
+										<span class="remark">我们将在反馈时间之前，告知您所选择的网红是否接受您的预约订单。反馈时间必须晚于当前时间24小时。</span>
+									</div>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>上传附件:</p>
-									<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
-									<span style="margin:0 0 0 15px;">您可以上传活动文档（txt、doc或docx格式）或活动图片（gif、jpg、jpeg或png格式），文件大小请控制在2M以下</span>
+									<div class="txt_up">
+										<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
+										<input type="file" name="input_file" class="input_file" id="input_file" />
+										<input type="text" class="path_file" id="path_file" readonly="readonly" />
+									</div>
+									<span class="remark_br">您可以上传活动文档（txt、doc或docx格式）或活动图片（gif、jpg、jpeg或png格式），文件大小请控制在2M以下</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>是否短信通知:</p>
 									<label><input type="checkbox" name="ifsms" /><b>手机短信通知</b></label>
@@ -93,6 +101,14 @@
 <?php include("foot.php"); ?>
 
 <script type="text/javascript">
+/*	上传文件右边显示文件名	*/
+$("#input_file").change(function(){
+	var path=$(this).val();
+	var path1 = path.lastIndexOf("\\");
+	var name = path.substring(path1+1);
+	$("#path_file").val(name);
+})
+
 /*	日历	*/
 var picker1 = new Pikaday({
 	field: document.getElementById('datepicker1'),

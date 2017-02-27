@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>电视媒体 - 亚媒社</title>
+	<title>记者预约 - 亚媒社</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
@@ -36,15 +36,26 @@
 <div class="content"><div class="Invoice">
 <div class="INa1dd"><div class="ndt">
 		
-	<!--	电视媒体	-->
+	<!--	记者预约	-->
 	<div class="radius1">
-		<h3 class="title1"><strong><a href="#">电视媒体</a></strong></h3>
+		<h3 class="title1"><strong><a href="#">记者报料</a></strong></h3>
 		
 		<div class="sbox_1 clearfix">
 			
 			<div class="sbox_1_w">
 				<div class="sbox_1_item sbox_1_item_showall clearfix">
-					<span class="l" data="option_4"><strong>覆盖区域</strong></span>
+					<span class="l" data="option_1"><strong>报料平台</strong></span>
+					<div class="m">
+						<ul class="sortable">
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">电视媒体<i class="del"></i></a></li>
+							<li><a href="">网络媒体<i class="del"></i></a></li>
+							<li><a href="">平面媒体<i class="del"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l" data="option_2"><strong>覆盖区域</strong></span>
 					<div class="m">
 						<ul class="sortable">
 							<li><a href="" class="cur">不限</a></li>
@@ -80,13 +91,64 @@
 							<li><a href="">广西<i class="del"></i></a></li>
 						</ul>
 					</div>
+					<span class="r"><a href="">更多</a></span>
 				</div>
 				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_5"><strong>频道类型</strong></span>
+					<span class="l l2" data="option_3"><strong><i>(网络媒体)</i>频道类型</strong></span>
+					<div class="m">
+						<ul class="sortable">
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">新闻资讯<i class="del"></i></a></li>
+							<li><a href="">财经<i class="del"></i></a></li>
+							<li><a href="">IT科技<i class="del"></i></a></li>
+							<li><a href="">娱乐<i class="del"></i></a></li>
+							<li><a href="">旅游<i class="del"></i></a></li>
+							<li><a href="">教育<i class="del"></i></a></li>
+							<li><a href="">房产<i class="del"></i></a></li>
+							<li><a href="">家居<i class="del"></i></a></li>
+							<li><a href="">汽车<i class="del"></i></a></li>
+							<li><a href="">女性<i class="del"></i></a></li>
+							<li><a href="">时尚<i class="del"></i></a></li>
+							<li><a href="">美容<i class="del"></i></a></li>
+							<li><a href="">母婴育儿<i class="del"></i></a></li>
+							<li><a href="">垂直行业<i class="del"></i></a></li>
+							<li><a href="">地方门户<i class="del"></i></a></li>
+							<li class="add"><a href="fenleixiugai2.php" target="_blank">添加</a></li>
+						</ul>
+					</div>
+					<span class="r"><a href="">更多</a></span>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l l2" data="option_4"><strong><i>(电视媒体)</i>频道类型</strong></span>
 					<div class="m">
 						<ul class="sortable">
 							<li><a href="" class="cur">不限</a></li>
 							<li><a href="">新闻<i class="del"></i></a></li>
+							<li><a href="">财经<i class="del"></i></a></li>
+							<li><a href="">IT科技<i class="del"></i></a></li>
+							<li><a href="">娱乐<i class="del"></i></a></li>
+							<li><a href="">旅游<i class="del"></i></a></li>
+							<li><a href="">教育<i class="del"></i></a></li>
+							<li><a href="">房产<i class="del"></i></a></li>
+							<li><a href="">家居<i class="del"></i></a></li>
+							<li><a href="">汽车<i class="del"></i></a></li>
+							<li><a href="">女性<i class="del"></i></a></li>
+							<li><a href="">时尚<i class="del"></i></a></li>
+							<li><a href="">美容<i class="del"></i></a></li>
+							<li><a href="">母婴育儿<i class="del"></i></a></li>
+							<li><a href="">垂直行业<i class="del"></i></a></li>
+							<li><a href="">地方门户<i class="del"></i></a></li>
+							<li class="add"><a href="fenleixiugai2.php" target="_blank">添加</a></li>
+						</ul>
+					</div>
+					<span class="r"><a href="">更多</a></span>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l l2" data="option_5"><strong><i>(平面媒体)</i>频道类型</strong></span>
+					<div class="m">
+						<ul class="sortable">
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">新闻资讯<i class="del"></i></a></li>
 							<li><a href="">财经<i class="del"></i></a></li>
 							<li><a href="">IT科技<i class="del"></i></a></li>
 							<li><a href="">娱乐<i class="del"></i></a></li>
@@ -135,63 +197,86 @@
 		
 		<div class="sbox_4 clearfix">
 			<div class="WIn2">
-				<h2>栏目列表</h2>
-				<div class="WMain1" style="width:auto;">
-					<div class="list_column clearfix">
-						<ul class="">
-							<li><a href="" class="cur">非诚勿扰</a></li>
-							<li><a href="">职来职往</a></li>
-							<li><a href="">万家灯火</a></li>
-							<li><a href="">欢喜冤家</a></li>
-							<li><a href="">江苏新时空</a></li>
-							<li><a href="">人间</a></li>
-							<li><a href="">幸福剧场情感剧场</a></li>
-							<li><a href="">非诚勿扰</a></li>
-							<li><a href="" class="cur">非诚勿扰</a></li>
-							<li><a href="">职来职往</a></li>
-							<li><a href="">万家灯火</a></li>
-							<li><a href="">欢喜冤家</a></li>
-							<li><a href="">江苏新时空</a></li>
-							<li><a href="">人间</a></li>
-							<li><a href="">幸福剧场情感剧场</a></li>
-							<li><a href="">非诚勿扰</a></li>
-							<li><a href="" class="cur">非诚勿扰</a></li>
-							<li><a href="">职来职往</a></li>
-							<li><a href="">万家灯火</a></li>
-							<li><a href="">欢喜冤家</a></li>
-							<li><a href="">江苏新时空</a></li>
-							<li><a href="">人间</a></li>
-							<li><a href="">幸福剧场情感剧场</a></li>
-							<li><a href="">非诚勿扰</a></li>
-							<li><a href="" class="cur">非诚勿扰</a></li>
-							<li><a href="">职来职往</a></li>
-							<li><a href="">万家灯火</a></li>
-							<li><a href="">欢喜冤家</a></li>
-							<li><a href="">江苏新时空</a></li>
-							<li><a href="">人间</a></li>
-							<li><a href="">幸福剧场情感剧场</a></li>
-							<li><a href="">非诚勿扰</a></li>
-							<li><a href="" class="cur">非诚勿扰</a></li>
-							<li><a href="">职来职往</a></li>
-							<li><a href="">万家灯火</a></li>
-							<li><a href="">欢喜冤家</a></li>
-							<li><a href="">江苏新时空</a></li>
-							<li><a href="">人间</a></li>
-							<li><a href="">幸福剧场情感剧场</a></li>
-							<li><a href="">非诚勿扰</a></li>
-						</ul>
-					</div>
-				</div>
+				<h2>已选媒体</h2>
+				<table width="100%" border="0" class="table_row6">
+				<thead>
+					<tr>
+						<th width="20%">媒体名称</th>
+						<th width="40%">介绍</th>
+						<th width="10%">代理价</th>
+						<th width="10%">会员</th>
+						<th width="10%">市场价</th>
+						<th width="10%">删除</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网1</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td class="color_red2">80元</td>
+						<td class="color_red2">90元</td>
+						<td class="color_red2">100元</td>
+						<td class="del"><a href="">×</a></td>
+					</tr>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网2</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td class="color_red2">80元</td>
+						<td class="color_red2">90元</td>
+						<td class="color_red2">100元</td>
+						<td class="del"><a href="">×</a></td>
+					</tr>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网3</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td class="color_red2">80元</td>
+						<td class="color_red2">90元</td>
+						<td class="color_red2">100元</td>
+						<td class="del"><a href="">×</a></td>
+					</tr>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网4</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td class="color_red2">80元</td>
+						<td class="color_red2">90元</td>
+						<td class="color_red2">100元</td>
+						<td class="del"><a href="">×</a></td>
+					</tr>
+					<tr>
+						<td><img src="img/bn66.png"/>新浪网5</td>
+						<td>新浪网XXXXXXXXXXXXXX</td>
+						<td class="color_red2">80元</td>
+						<td class="color_red2">90元</td>
+						<td class="color_red2">100元</td>
+						<td class="del"><a href="">×</a></td>
+					</tr>
+					</tbody>
+				</table>
 
 			</div>
+
 		</div>
 		<div class="sbox_5">
 			<div class="WIn2">
-				<h2>广告内容</h2>
+				<h2>报料内容</h2>
 				<div class="WMain1">
 					<div class="WMain2 WMain2_weixin">
 						<ul>
 							<li style="display:block;">
+								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>类型:</p>
+									<div id="radio_a1">
+										<label class="cur"><input type="radio" name="type" value="" checked />新闻报导</label>
+										<label><input type="radio" name="type" value="" />专题采编</label>
+										<label><input type="radio" name="type" value="" />调查采访</label>
+										<label><input type="radio" name="type" value="" />人物专访</label>
+										<label><input type="radio" name="type" value="" />精确报导</label>
+									</div>
+<script type="text/javascript">
+	$("#radio_a1 label").click(function(){
+		$(this).addClass("cur").siblings("label").removeClass("cur");
+	});
+</script>
+								</div>
 								<div class="WMain3"><p><i class="LGntas">*</i>主题:</p>
 									 <input type="text" name="textfield" id="textfield" placeholder="可输入25个汉字"  class="WIFN1"/>
 								</div>
@@ -199,42 +284,26 @@
 									<textarea name="textfield" id="textfield" class="WIFN2" style="width:55%;" /></textarea>
 									<span class="remark_br">请填写产品、品牌或推广活动（时间、地点及活动内容）简介，让预约对象大致了解此次推广活动，请勿超过1000字</span>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>节目段位:</p>
-									 <input type="text" name="textfield" id="textfield" class="WIFN1" style="width:30%;" />
-								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>播出时间:</p>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
 									<div>
 										<input type="text" name="textfield" id="datepicker1" class="txt2 txt2_2"> &nbsp;至&nbsp;
 										<input type="text" name="textfield" id="datepicker2" class="txt2 txt2_2">
 										<span class="remark">请选择当前时间15分钟后，7天之内的时间</span>
 									</div>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>周期:</p>
-									<div>
-										<label><input type="checkbox" name="" />周一</label>
-										<label><input type="checkbox" name="" />周二</label>
-										<label><input type="checkbox" name="" />周三</label>
-										<label><input type="checkbox" name="" />周四</label>
-										<label><input type="checkbox" name="" />周五</label>
-										<label><input type="checkbox" name="" />周六</label>
-										<label><input type="checkbox" name="" />周日</label>
-									</div>
-								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>时间长度:</p>
-									<select class="sel_2 options_s">
-										<option value="">5秒</option>
-										<option value="">60</option>
-										<option value="">120</option>
-										<option value="">240</option>
-										<option value="">600</option>
-										<option value="">3600</option>
-									</select> 秒
-								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>预约结果反馈时间:</p>
 									<div>
 										<input type="text" name="textfield" id="datepicker3" class="txt2 txt2_2">
 										<span class="remark">我们将在反馈时间之前，告知您所选择的网红是否接受您的预约订单。反馈时间必须晚于当前时间24小时。</span>
 									</div>
+								</div>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>上传附件:</p>
+									<div class="txt_up">
+										<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
+										<input type="file" name="input_file" class="input_file" id="input_file" />
+										<input type="text" class="path_file" id="path_file" readonly="readonly" />
+									</div>
+									<span class="remark_br">您可以上传活动文档（txt、doc或docx格式）或活动图片（gif、jpg、jpeg或png格式），文件大小请控制在2M以下</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>是否短信通知:</p>
 									<label><input type="checkbox" name="ifsms">手机短信通知</label>
@@ -250,6 +319,18 @@
 				</div>
 				
 <script type="text/javascript">
+/*	上传文件右边显示文件名	*/
+$("#input_file").change(function(){
+	var path=$(this).val();
+	var path1 = path.lastIndexOf("\\");
+	var name = path.substring(path1+1);
+	$("#path_file").val(name);
+})
+/*	表格删除	*/
+$(".table_row6").on("click","td.del a",function(){
+	$(this).closest("tr").remove();
+	return false;	
+});
 /*	小时、分钟 列表	*/
 	var options_h="";
 	var options_m="";
