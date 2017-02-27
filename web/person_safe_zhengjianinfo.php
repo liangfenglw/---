@@ -47,7 +47,9 @@
 					</div>
 					<div class="WMain3 WMain3_2 clearfix"><p><i class="LGntas"></i>上传证件副件：</p>
 						<div class="img_up" id="img_up">
-							<a href=""><img src="/images/img_up.jpg" ></a>
+							<img src="/images/img_up.jpg" >
+							<input type="file" name="input_file" class="input_file" id="input_file" /><br/>
+							<input type="text" class="path_file" id="path_file" readonly="readonly" />
 						</div>
 					</div>
 					
@@ -73,6 +75,16 @@
 $(function(){
 	$(".tab1>ul>li>a").unbind("click");
 });
+
+$("#input_file").change(function(){
+//	var filepath=$(this).val();
+//	$("#path_file").val(filepath);	// C:\fakepath\1.jpg
+	
+	var path=$(this).val();
+	var path1 = path.lastIndexOf("\\");
+	var name = path.substring(path1+1);
+	$("#path_file").val(name);
+})
 </script>
 
 </div>

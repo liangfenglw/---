@@ -582,9 +582,35 @@ ul.ul_table1 li span.sp4{	width:6%;	margin-left:3%;	margin-right:3%;	float:right
 	color:#999;	}
 .safe_2 .sel_2{	width:45%;	padding:0 2%;	height:32px;	line-height:32px;	}
 
-.img_up{			}
-.img_up a{			}
-.img_up a img{			}
+.safe_2 .WMain3 .img_up{		position:relative;	padding:0;	}
+.img_up img{	width:90px;	height:110px;		}
+.input_file{		position:absolute;	left:0;	top:0;	width:90px;	height:110px;	opacity:0;	filter:alpha(opacity=0);	cursor:pointer;	}
+.path_file{		background:none;	margin:8px 0 0;	border:none;	padding:0;	width:100%;	}
+
+
+
+/*	电视媒体	*/
+.list_column{		display:block;	}
+.list_column ul{	float:left;		padding:25px 2% 0;	width:105%;	}
+.list_column ul li{		float:left;	margin:0 0px 12px 0;	width:190px;	font-size:14px;	}
+.list_column ul li a{	float:left;		height:27px;	line-height:27px;	padding:0 12px;	color:#333;	background:#fff;	border-radius:3px;			}
+.list_column ul li a.cur{	color:#fff;	background:#2D9FDD;	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

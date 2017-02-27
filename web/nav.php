@@ -57,6 +57,9 @@
 	<a href="xitongxiaoxi.php" title="">最新消息</a>
 	<a href="back_pass.php" title="">找回密码</a>
 	
+	<br/>
+	<strong>电视媒体：</strong>
+	<a href="tv.php" title="电视媒体.psd">电视媒体</a>
 	
 	
 	<br/>
