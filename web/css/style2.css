@@ -249,7 +249,7 @@ aatable.dataTable{	border-collapse:collapse;	}
 .sbox_3_table table tr{	border-bottom:1px dashed #E6E6E6;	}
 .sbox_3_table table thead{	background:#F7F8FA;	border:1px solid #e5e5e5;	height:38px;	line-height:38px;	}
 .sbox_3_table table th{		font-weight:400;	text-align:center;	vertical-align:middle;	font-size:14px;		color:#333;	}
-.sbox_3_table table td{		font-weight:400;	text-align:center;	vertical-align:middle;	padding:30px 0;	}
+.sbox_3_table table td{		font-weight:400;	text-align:center;	vertical-align:middle;	padding:25px 0;	}
 td.sbox_3_t1{	font-size:16px;		}
 td.sbox_3_t2{		font-size:14px;	}
 td.sbox_3_t3{		font-size:14px;	}
@@ -291,6 +291,8 @@ select.sel_t1 option{		}
 .btn_sub_w{		padding:40px 0 20px;	text-align:center;		}
 .btn_sub{		background:none;	border:none;	cursor:pointer;	}
 
+.sbox_5 .WMain3 p{	width:100px;	text-align:right;	padding-right:45px;	}
+.sbox_5 .WMain3_1>div{	margin-left:145px;	}
 
 /*	问答任务列表	*/
 table.table_in1_2{	margin:0 auto;	border-left:1px solid #F2F2F2;	border-right:1px solid #F2F2F2;	}
@@ -324,7 +326,8 @@ select.sel_2{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-hei
 	width:auto;	text-align:center;	text-indent:0px;	padding:0 8px;	}
 .txt6{	border:1px solid #E5E5E5;	border-radius:5px;	height:30px;	line-height:30px;	width:32%;	padding:0 6px;	}
 .sbox_5 .txt2_2{	border:1px solid #E5E5E5;	border-radius:5px;		}
-.WMain2_weixin .WMain3 p{	width:140px;	text-align:right;	margin-right:17px;	}
+.WMain2_weixin .WMain3 p{	width:140px;	text-align:right;	margin-right:17px;
+	padding-right:0;	}
 .WMain2_weixin .WMain3_2{	margin-bottom:5px;	}
 .WMain2_weixin .WMain3 label{	position:relative;	top:1px;		}
 .WMain2_weixin .WMain3_2>span{	line-height:1.5;	padding-top:6px;	display:inline-block;	margin-left:157px;	}
@@ -612,6 +615,7 @@ ul.ul_table1 li span.sp4{	width:6%;	margin-left:3%;	margin-right:3%;	float:right
 .sbox_1_item_showall .m{	margin-right:0;	}
 .sbox_1_item_showall .m ul{	height:auto;	}
 
+
 /*	记者预约	*/
 .sbox_1_item .l2{		}
 .sbox_1_item .l2 strong{	atext-align:center;	margin:16px 0 0px 20px;	line-height:20px;	}
@@ -627,6 +631,12 @@ table.table_row6{	width:100%;		margin:1px 1px 0;	background:#fff;	}
 .table_row6 select{	height:28px;	line-height:30px;	border:1px solid #ccc;	background:#fff;	padding:0 6px 0 10px;	font-size:14px;	}
 
 
+/*	平面媒体	*/
+.list_column2{		display:block;	overflow:hidden;	}
+.list_column2 ul{	float:left;		padding:25px 0 0 2%;	width:102%;	}
+.list_column2 ul li{	float:left;		margin:0 90px 12px 0;	width:auto;	font-size:14px;	}
+.list_column2 ul li a{	float:left;		height:27px;	line-height:27px;	padding:0 20px;	color:#333;	background:#fff;	border-radius:3px;			}
+.list_column2 ul li a.cur{	color:#fff;	background:#2D9FDD;	}
 
 
 

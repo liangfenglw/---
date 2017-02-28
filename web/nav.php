@@ -65,6 +65,10 @@
 	<strong>记者预约：</strong>
 	<a href="jizhe_yuyue.php" title="记者预约.psd">记者预约</a>
 	
+	<br/>
+	<strong>平面媒体：</strong>
+	<a href="print_media.php" title="平面媒体.psd">平面媒体</a>
+	
 	
 	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>
