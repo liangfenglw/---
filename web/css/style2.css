@@ -271,7 +271,7 @@ td.sbox_3_t6,td.sbox_3_t7,td.sbox_3_t8{	color:#f00;		font-size:16px;	}
 
 .sbox_5 .WIn2{		margin:30px 2.5% 0;	width:auto;	}
 .sbox_5 .WIn2 h2{	font-size:18px;		font-weight:400;	margin-top:0;	border-bottom:1px solid #D9E1EB;	}
-.sbox_5 .WIn2 .WMain1{	width:auto;	border-radius:5px;	}
+.sbox_5 .WIn2 .WMain1{	awidth:auto;	border-radius:0 0 5px 5px;	}
 .sbox_5 .WMain3 p{	width:115px;		}
 .sbox_5 .WIFN1{		width:55%;		}
 .sbox_5 .WMain3{	margin:16px auto;	width:100%;	}
@@ -304,11 +304,12 @@ table.table_in1_2 select{	padding:0 6px 0 10px;	}
 .page_1_2 span.sus, .page_1_2 a{	float:none;	}
 
 /*	问答任务添加	*/
+.WIn2 h2{	border:1px solid #E9F3FF;	border-width:0 1px;	}
 table.table_in3{	width:100%;		margin:1px 1px 0;	background:#fff;	}
 .table_in3 tr{	margin-bottom:2px;	}
 .table_in3 tr th{	height:40px;	vertical-align:middle;	text-align:center;	font-size:14px;		background:#F2F2F2;	font-weight:400;	}
 .table_in3 tr td{	aheight:60px;	vertical-align:middle;	text-align:center;	font-size:14px;	padding:10px 0;	line-height:25px;	}
-.table_in3 tr td:nth-child(1) img{	    width:40px;	height:20px;	overflow:hidden;	margin-right:10px;	}
+.table_in3 tr td img{	    width:40px;	height:20px;	overflow:hidden;	margin-right:10px;	}
 .table_in3 tr td:nth-child(1){	width:22%; 	}
 .table_in3 tr td:nth-child(2){	width:25%; 	}
 .table_in3 tr td:nth-child(3){	width:25%;	padding:10px 0 9px 0;	}
@@ -595,9 +596,10 @@ ul.ul_table1 li span.sp4{	width:6%;	margin-left:3%;	margin-right:3%;	float:right
 
 
 /*	电视媒体	*/
-.list_column{		display:block;	}
-.list_column ul{	float:left;		padding:25px 2% 0;	width:105%;	}
-.list_column ul li{		float:left;	margin:0 0px 12px 0;	width:190px;	font-size:14px;	}
+.WMain1{		}
+.list_column{		display:block;	overflow:hidden;	aborder:1px solid #eee;	}
+.list_column ul{	float:left;		padding:25px 0 0 2%;	width:102%;	}
+.list_column ul li{		float:left;	margin:0 30px 12px 0;	width:160px;	font-size:14px;	}
 .list_column ul li a{	float:left;		height:27px;	line-height:27px;	padding:0 12px;	color:#333;	background:#fff;	border-radius:3px;			}
 .list_column ul li a.cur{	color:#fff;	background:#2D9FDD;	}
 .WMain2 .WMain3_2 .remark{	margin:0 0 0 15px;	color:#999999;	}

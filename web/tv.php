@@ -136,7 +136,7 @@
 		<div class="sbox_4 clearfix">
 			<div class="WIn2">
 				<h2>栏目列表</h2>
-				<div class="WMain1" style="width:auto;">
+				<div class="WMain1">
 					<div class="list_column clearfix">
 						<ul class="">
 							<li><a href="" class="cur">非诚勿扰</a></li>
