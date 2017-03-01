@@ -321,30 +321,6 @@
 
 
 </script>
-<script type="text/javascript">
-	$(function(){
-		$(".WMain1 .tab a").click(function(){
-			$(this).addClass('on').siblings().removeClass('on');
-			var index = $(this).index();
-			number = index;
-			$('.WMain1 .WMain2 li').hide();
-			$('.WMain1 .WMain2 li:eq('+index+')').show();
-		});
-		
-		var auto = 1;  //等于1则自动切换，其他任意数字则不自动切换
-		if(auto ==1){
-			var number = 0;
-			var maxNumber = $('.WMain1 .tab a').length;
-			function autotab(){
-				number++;
-				number == maxNumber? number = 0 : number;
-				$('.WMain1 .tab a:eq('+number+')').addClass('on').siblings().removeClass('on');
-				$('.WMain1 .WMain2 ul li:eq('+number+')').show().siblings().hide();
-			}
-			
-		  }
-	});
-</script>
 
 			</div>	
 		</div>
@@ -367,13 +343,6 @@ var picker1 = new Pikaday({
 });
 var picker2 = new Pikaday({
 	field: document.getElementById('datepicker2'),
-	firstDay: 1,
-	minDate: new Date('2000-01-01'),
-	maxDate: new Date('2020-12-31'),
-	yearRange: [2000,2020]
-});
-var picker3 = new Pikaday({
-	field: document.getElementById('datepicker3'),
 	firstDay: 1,
 	minDate: new Date('2000-01-01'),
 	maxDate: new Date('2020-12-31'),
