@@ -3,11 +3,15 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style2.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/plugins.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="js/jquery.touchslider.min.js"  type="text/javascript"></script>
-
+<script type="text/javascript" src="js/layer/layer.js"></script>
+<script type="text/javascript" src="js/main2.js"></script>
 <script type="text/javascript" src="js/jquery.tools.min.js"></script>
 </head>
 <body >
@@ -44,7 +48,7 @@
                     </div>
                     <div class="LGnt6"><p><i class="LGntas">*</i>手机:</p>
                          <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
-                         <span>修改</span>
+                         <span><a href="#" id="TSxiugei">修改</a></span>
                     </div>
                     <div class="LGnt6"><p><i class="LGntas">*</i>邮箱:</p>
                          <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
@@ -66,6 +70,16 @@
 </div>
 </div></div>
 </div></div>
+
+<!--修改手机号弹窗提示-->
+<div class="xiugai_info">
+    <p class="xiugainame">重置手机号</p>
+    <p style="font-size: 15px;color: #333; line-height: 25px; width:80%; margin: auto; margin-top: 60px;">修改手机号将会影响登录用户名，若非手机号遗失等情况，建议不要随便修改手机号。</p>
+    <p  style="font-size: 14px;color: #ccc; line-height: 25px; width: 80%; margin: auto; margin-bottom: 60px;">您是否确定继续修改手机号？</p>
+    <input type="submit" name="button" id="button" value="确 认" class="xg_Button"/>
+    <input type="reset" name="button" id="button" value="取 消" class="zz_Button"/>
+</div>
+
 <script>
 $(function(){
 	$(".lanrenzhijia .tab a").click(function(){
@@ -89,6 +103,21 @@ $(function(){
 		
 	  }
 });
+
+/*  点击修改弹出修改手机号提示    */
+$("#TSxiugei").click(function(){
+    event.preventDefault();
+    layer.open({
+        type: 1,
+        title: " ",
+        shadeClose: true, //开启遮罩关闭
+        skin: 'xiugai_info_w', //加上class设置样式
+        area: ['600px'], //宽高
+        content: $(".xiugai_info")
+    });
+});
+reset_total();
+
 </script>
 <!--会员信息end-->
 

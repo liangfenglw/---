@@ -69,7 +69,7 @@
 								</span>
 							</li>
 							<li><span class="sp1">绑定邮箱</span>
-								<span class="sp2">绑定认证后可用于邮箱找回密码、接受订单提醒等，保障您的账户更加安全。</span>
+								<span class="sp2">绑定认证后可用于邮箱找回密码、接受订单提醒、重置用户名等，保障您的账户更加安全。</span>
 								<span class="sp3">
 									<i class="not-ok">未绑定</i>
 								</span>
@@ -78,7 +78,7 @@
 								</span>
 							</li>
 							<li><span class="sp1">密保问题</span>
-								<span class="sp2">设置安保问题可以进一步提升您的账户安全性。</span>
+								<span class="sp2">设置安保问题可以进一步提升您的账户安全性及重置用户名。</span>
 								<span class="sp3">
 									<i class="ok">已设置</i>
 								</span>

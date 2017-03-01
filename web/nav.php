@@ -16,6 +16,7 @@
 	<a href="reg.php" title="会员中心/注册.psd">注册</a>
 	<a href="chongzhi.php" title="会员中心/帐户充值.psd">账户充值</a>
 	<a href="huiyuanedit.php" title="会员中心/会员中心.psd">会员中心</a>
+	<a href="reset_Uname.php" title="">重置用户名</a>
 
 	<br/>
 	<strong>网络媒体：</strong>

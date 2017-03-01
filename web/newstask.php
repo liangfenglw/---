@@ -20,6 +20,10 @@
 	<script type="text/javascript" src="js/main2.js"></script>
 	<script type="text/javascript" src="js/layer/layer.js"></script>
 
+	<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+	<script type="text/javascript" charset="utf-8" src="zh-cn.js"></script>
+
 <script type="text/javascript" src="js/jquery.tools.min.js"></script>
 
 
@@ -285,32 +289,87 @@
 									 <input type="text" name="textfield" id="textfield" placeholder="可输入25个汉字"  class="WIFN1"/>
 								</div>
 								<div class="WMain3"><p><i class="LGntas">*</i>稿件内容:</p>
-									 <label><input type="radio" name="gao" checked />外部连接</label>
-									 <label><input type="radio" name="gao" />上传文档</label>
-									 <label><input type="radio" name="gao" />内部编辑</label>
+									 <label><input type="radio" name="gao" onclick="waibu.style.display='';shangchuan.style.display='none';bianji.style.display='none';" checked />外部连接</label>
+									 <label><input type="radio" name="gao" onclick="shangchuan.style.display='';waibu.style.display='none';bianji.style.display='none';"/>上传文档</label>
+									 <label><input type="radio" name="gao"  onclick="bianji.style.display='';waibu.style.display='none';shangchuan.style.display='none';" />内部编辑</label>
 								</div>
-								<div class="WMain3"><p><i class="LGntas">*</i>外部链接:</p>
-									 <input type="text" name="textfield" id="textfield" class="WIFN1"/>
-								</div>
-								<div class="WMain3 WMain3_1"><p><i class="LGntas"></i>关键字:</p>
-									<div id="key_input">
-										<input type="text" name="textfield" id="textfield" class="WIFN1" placeholder="关键字不超过100个字符，多个关键字请用。隔开" />
-										<p>还可输入<b>100</b>个字</p>
+								<div id="waibu" title="外部连接">
+									<div class="WMain3"><p><i class="LGntas">*</i>外部链接:</p>
+										 <input type="text" name="textfield" id="textfield" class="WIFN1"/>
+									</div>
+									<div class="WMain3 WMain3_1"><p><i class="LGntas"></i>关键字:</p>
+										<div id="key_input">
+											<input type="text" name="textfield" id="textfield" class="WIFN1" placeholder="关键字不超过100个字符，多个关键字请用。隔开" />
+											<p>还可输入<b>100</b>个字</p>
+										</div>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
+										 <input type="text" name="textfield" id="datepicker1" class="txt2"/>
+										 <select class="sel_t1 options_h"></select>时
+										 <select class="sel_t1 options_m"></select>分
+	<!--	<option value="00">00</option>	-->
+										 <span>请选择当前时间15分钟后，7天之内的时间</span>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>截止时间:</p>
+										<input type="text" name="textfield" id="datepicker2" class="txt2"/>
+										<select class="sel_t1 options_h"></select>时
+										<select class="sel_t1 options_m"></select>分
+										<span>请选择开始时间24小时后，7天之内的时间</span>
 									</div>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
-									 <input type="text" name="textfield" id="datepicker1" class="txt2"/>
-									 <select class="sel_t1 options_h"></select>时
-									 <select class="sel_t1 options_m"></select>分
-<!--	<option value="00">00</option>	-->
-									 <span>请选择当前时间15分钟后，7天之内的时间</span>
+
+								<div id="shangchuan" title="上传文档" style="display: none;">
+									<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>稿件导入:</p>
+										<input type="text" name="textfield" id="textfield" class="txt6"/>
+										<button type="button" name="textfield" id="textfield" class="txt7"/>导入</button><br/>
+										<span style="margin-left: 145px;">选填，如果您的文章已编辑完成，请复制链接到此处，并点击“导入”。</span>
+									</div>
+									<div class="WMain3 WMain3_1"><p><i class="LGntas"></i>关键字:</p>
+										<div id="key_input">
+											<input type="text" name="textfield" id="textfield" class="WIFN1" placeholder="关键字不超过100个字符，多个关键字请用。隔开" />
+											<p>还可输入<b>100</b>个字</p>
+										</div>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
+										 <input type="text" name="textfield" id="datepicker1" class="txt2"/>
+										 <select class="sel_t1 options_h"></select>时
+										 <select class="sel_t1 options_m"></select>分
+	<!--	<option value="00">00</option>	-->
+										 <span>请选择当前时间15分钟后，7天之内的时间</span>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>截止时间:</p>
+										<input type="text" name="textfield" id="datepicker2" class="txt2"/>
+										<select class="sel_t1 options_h"></select>时
+										<select class="sel_t1 options_m"></select>分
+										<span>请选择开始时间24小时后，7天之内的时间</span>
+									</div>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>截止时间:</p>
-									<input type="text" name="textfield" id="datepicker2" class="txt2"/>
-									<select class="sel_t1 options_h"></select>时
-									<select class="sel_t1 options_m"></select>分
-									<span>请选择开始时间24小时后，7天之内的时间</span>
+
+								<div id="bianji" title="内部编辑"  style="display: none;">
+									<div class="WMain3 WMain3_1"><p><i class="LGntas"></i>关键字:</p>
+										<div id="key_input">
+											<input type="text" name="textfield" id="textfield" class="WIFN1" placeholder="关键字不超过100个字符，多个关键字请用。隔开" />
+											<p>还可输入<b>100</b>个字</p>
+										</div>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>开始时间:</p>
+										 <input type="text" name="textfield" id="datepicker1" class="txt2"/>
+										 <select class="sel_t1 options_h"></select>时
+										 <select class="sel_t1 options_m"></select>分
+	<!--	<option value="00">00</option>	-->
+										 <span>请选择当前时间15分钟后，7天之内的时间</span>
+									</div>
+									<div class="WMain3 WMain3_2"><p><i class="LGntas">*</i>截止时间:</p>
+										<input type="text" name="textfield" id="datepicker2" class="txt2"/>
+										<select class="sel_t1 options_h"></select>时
+										<select class="sel_t1 options_m"></select>分
+										<span>请选择开始时间24小时后，7天之内的时间</span>
+									</div>
+									<div class="WMain3 WMain3_1"><p><i class="LGntas">*</i>内容编辑:</p>
+										<script id="editor" name="zw" type="text/plain"></script>
+									</div>
 								</div>
+
 								<div class="WMain3 WMain3_1"><p><i class="LGntas">*</i>新闻备注:</p>
 									<div id="xinwenbeizhu">
 										<textarea name="textfield" id="textfield" class="WIFN2"/></textarea>
@@ -393,6 +452,117 @@
 			
 		  }
 	});
+</script>
+<script type="text/javascript">
+
+    //实例化编辑器
+    //建议使用工厂方法getEditor创建和引用编辑器实例，如果在某个闭包下引用该编辑器，直接调用UE.getEditor('editor')就能拿到相关的实例
+    var ue = UE.getEditor('editor');
+    function isFocus(e){
+        alert(UE.getEditor('editor').isFocus());
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function setblur(e){
+        UE.getEditor('editor').blur();
+        UE.dom.domUtils.preventDefault(e)
+    }
+    function insertHtml() {
+        var value = prompt('插入html代码', '');
+        UE.getEditor('editor').execCommand('insertHtml', value)
+    }
+    function createEditor() {
+        enableBtn();
+        UE.getEditor('editor');
+    }
+    function getAllHtml() {
+        alert(UE.getEditor('editor').getAllHtml())
+    }
+    function getContent() {
+        var arr = [];
+        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getContent());
+        alert(arr.join("\n"));
+    }
+    function getPlainTxt() {
+        var arr = [];
+        arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+        arr.push("内容为：");
+        arr.push(UE.getEditor('editor').getPlainTxt());
+        alert(arr.join('\n'))
+    }
+    function setContent(isAppendTo) {
+        var arr = [];
+        arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+        UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+        alert(arr.join("\n"));
+    }
+    function setDisabled() {
+        UE.getEditor('editor').setDisabled('fullscreen');
+        disableBtn("enable");
+    }
+
+    function setEnabled() {
+        UE.getEditor('editor').setEnabled();
+        enableBtn();
+    }
+
+    function getText() {
+        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
+        var range = UE.getEditor('editor').selection.getRange();
+        range.select();
+        var txt = UE.getEditor('editor').selection.getText();
+        alert(txt)
+    }
+
+    function getContentTxt() {
+        var arr = [];
+        arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+        arr.push("编辑器的纯文本内容为：");
+        arr.push(UE.getEditor('editor').getContentTxt());
+        alert(arr.join("\n"));
+    }
+    function hasContent() {
+        var arr = [];
+        arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+        arr.push("判断结果为：");
+        arr.push(UE.getEditor('editor').hasContents());
+        alert(arr.join("\n"));
+    }
+    function setFocus() {
+        UE.getEditor('editor').focus();
+    }
+    function deleteEditor() {
+        disableBtn();
+        UE.getEditor('editor').destroy();
+    }
+    function disableBtn(str) {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            if (btn.id == str) {
+                UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+            } else {
+                btn.setAttribute("disabled", "true");
+            }
+        }
+    }
+    function enableBtn() {
+        var div = document.getElementById('btns');
+        var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+        for (var i = 0, btn; btn = btns[i++];) {
+            UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+        }
+    }
+
+    function getLocalData () {
+        alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
+    }
+
+    function clearLocalData () {
+        UE.getEditor('editor').execCommand( "clearlocaldata" );
+        alert("已清空草稿箱")
+    }
 </script>
 
 			</div>	
