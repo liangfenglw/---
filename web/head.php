@@ -13,6 +13,13 @@
         <div class="sidepanel-open-button"></div>
     </div>
 </div>
+<!--右边会员中心入口弹窗-->
+<div class="HYrukou">
+    <li><a href="" class="nd2">会员信息</a></li>
+    <li><a href="" class="nd2">会员信息</a></li>
+    <li><a href="" class="nd2">会员信息</a></li>
+</div>  
+
     <!--右弹购物车-->
     <div role="tabpanel" class="sidepanel">
     	<div style="background:#204186; float:left; width:260px; height:auto;">
@@ -180,5 +187,14 @@ $(function(){
 		}
     });
 });
+
+$(document).ready(function(){
+    $(".ITuser").click(function(){
+      $(".HYrukou").toggle();
+
+    });
+
+    
+ }); 
 
 </script>
