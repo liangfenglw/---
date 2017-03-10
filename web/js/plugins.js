@@ -1,27 +1,16 @@
 /* Sidebar Menu*/
-$(document).ready(function(){
-
-      $(".header").click(function()
-      { var arrow = $(this).find("span.arrow");
-
-        if(arrow.hasClass("up"))
-        {
-          arrow.removeClass("up");
-          arrow.addClass("down");
-        }
-        else if(arrow.hasClass("down"))
-        {
-          arrow.removeClass("down");
-          arrow.addClass("up");
-        }
-		if ($(this).attr('class') != 'active'){
-		  $('.menu').slideUp();
-		  $(this).next().slideToggle();
-		  $('.menu li').removeClass('active');
-		  $(this).addClass('active');
-		}
-		
-      });
+$(document).ready(function() {
+  $('.inactive').click(function(){
+    if($(this).siblings('.menu').css('display')=='none'){
+      $(this).parent('li').siblings('li').removeClass('inactives');
+      $(this).addClass('inactives');
+      $(this).siblings('ul').slideDown(500).children('li');
+    }else{
+      $(this).removeClass('inactives');
+      $(this).siblings('ul').slideUp(500);
+      $(this).siblings('ul').children('li').children('a').removeClass('inactives');
+    }
+  })
 });
 
 /* Top Stats Show Hide */

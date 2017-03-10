@@ -74,8 +74,14 @@
 	<strong>线下媒体任务：</strong>
 	<a href="offline_media_tasks.php" title="线下媒体任务.psd">线下媒体任务</a>
 	
-	
 	<br/>
 	<a href="fenlei.php" title="新增页面-筛选分类管理.psd">分类管理</a>
+	<br/>
+	<strong>平台管理中心：</strong>
+	<a href="Umanagement.php" title="">用户管理</a>
+	<a href="user_news.php" title="">创建用户</a>
+	<a href="URole.php" title="">用户角色分组列表</a>
+	<a href="Upermissions.php" title="">修改权限</a>
+	<a href="Drecord.php" title="">订单回收站</a>
 
 </div>
