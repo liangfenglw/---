@@ -34,7 +34,7 @@
 		
 	<!--	添加方案策划任务	-->
 	<div class="radius1">
-		<h3 class="title1"><strong><a href="#">内容代写</a></strong></h3>
+		<h3 class="title1"><strong><a href="#">文案策划</a></strong></h3>
 		
 		<div class="sbox_5">
 		

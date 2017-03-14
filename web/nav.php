@@ -26,6 +26,7 @@
 	<a href="bbs.php" title="网络媒体/论坛.psd">论坛</a>
 	<a href="miaopai_search.php" title="网络媒体/秒拍任务_搜索至顶.psd">秒拍任务_搜索至顶</a>
 	<a href="wenanchehua_add.php" title="网络媒体/添加文案策划任务.psd">添加文案策划任务</a>
+	<a href="wenanchehua_att.php" title="网络媒体/查看案策划任务.psd">查看案策划任务</a>
 	<a href="weibo_dingdan.php" title="网络媒体/微博订单.psd">微博订单</a>
 	<a href="weibo_yingxiao.php" title="网络媒体/微博营销.psd">微博营销</a>
 	<a href="weixin_yingxiao.php" title="网络媒体/微信营销.psd">微信营销</a>

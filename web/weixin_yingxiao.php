@@ -41,51 +41,7 @@
 		<div class="sbox_1 clearfix">
 			
 			<div class="sbox_1_w">
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_1"><strong>网站类型</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">全国门户</a></li>
-							<li><a href="">垂直行业</a></li>
-							<li><a href="">地方门户</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_2"><strong>入口级别</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">网站首页</a></li>
-							<li><a href="">频道首页</a></li>
-							<li><a href="">二级频道首页</a></li>
-							<li><a href="">三级频道首页</a></li>
-							<li><a href="">列表页入口</a></li>
-							<li><a href="">无入口</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_3"><strong>入口形式</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">文字标题</a></li>
-							<li><a href="">焦点图片</a></li>
-							<li><a href="">图文混排</a></li>
-							<li><a href="">其他图片</a></li>
-							<li><a href="">通栏</a></li>
-							<li><a href="">文字链</a></li>
-							<li><a href="">画中画</a></li>
-							<li><a href="">Banner</a></li>
-							<li><a href="">Button</a></li>
-							<li><a href="">Floating</a></li>
-							<li><a href="">流媒体</a></li>
-						</ul>
-					</div>
-					<span class="r"><a href="">更多</a></span>
-				</div>
+				
 				<div class="sbox_1_item clearfix">
 					<span class="l" data="option_4"><strong>覆盖区域</strong></span>
 					<div class="m">
@@ -146,6 +102,36 @@
 						</ul>
 					</div>
 					<span class="r"><a href="">更多</a></span>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l" data="option_3"><strong>粉丝数</strong></span>
+					<div class="m">
+						<ul>
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">5万以下</a></li>
+							<li><a href="">5-10万</a></li>
+							<li><a href="">10-15万</a></li>
+							<li><a href="">15-20万</a></li>
+							<li><a href="">20-30万</a></li>
+							<li><a href="">30-50万</a></li>
+							<li><a href="">50-70万</a></li>
+							<li><a href="">70-100万</a></li>
+							<li><a href="">100-150万</a></li>
+							<li><a href="">150-300万</a></li>
+							<li><a href="">300以上</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l" data="option_3"><strong>广告位置</strong></span>
+					<div class="m">
+						<ul>
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">多图文第一条</a></li>
+							<li><a href="">多图文第二条</a></li>
+							<li><a href="">单图文</a></li>
+						</ul>
+					</div>
 				</div>
 				<div class="sbox_1_item clearfix">
 					<span class="l" data="option_6"><strong>会员价</strong></span>

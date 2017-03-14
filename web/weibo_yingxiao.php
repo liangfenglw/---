@@ -24,6 +24,7 @@
 	<script type="text/javascript" src="js/main2.js"></script>
 
 <script type="text/javascript" src="js/jquery.tools.min.js"></script>
+
 </head>
 <body>
 
@@ -41,51 +42,6 @@
 		<div class="sbox_1 clearfix">
 			
 			<div class="sbox_1_w">
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_1"><strong>网站类型</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">全国门户</a></li>
-							<li><a href="">垂直行业</a></li>
-							<li><a href="">地方门户</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_2"><strong>入口级别</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">网站首页</a></li>
-							<li><a href="">频道首页</a></li>
-							<li><a href="">二级频道首页</a></li>
-							<li><a href="">三级频道首页</a></li>
-							<li><a href="">列表页入口</a></li>
-							<li><a href="">无入口</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="sbox_1_item clearfix">
-					<span class="l" data="option_3"><strong>入口形式</strong></span>
-					<div class="m">
-						<ul>
-							<li><a href="" class="cur">不限</a></li>
-							<li><a href="">文字标题</a></li>
-							<li><a href="">焦点图片</a></li>
-							<li><a href="">图文混排</a></li>
-							<li><a href="">其他图片</a></li>
-							<li><a href="">通栏</a></li>
-							<li><a href="">文字链</a></li>
-							<li><a href="">画中画</a></li>
-							<li><a href="">Banner</a></li>
-							<li><a href="">Button</a></li>
-							<li><a href="">Floating</a></li>
-							<li><a href="">流媒体</a></li>
-						</ul>
-					</div>
-					<span class="r"><a href="">更多</a></span>
-				</div>
 				<div class="sbox_1_item clearfix">
 					<span class="l" data="option_4"><strong>覆盖区域</strong></span>
 					<div class="m">
@@ -146,6 +102,25 @@
 						</ul>
 					</div>
 					<span class="r"><a href="">更多</a></span>
+				</div>
+				<div class="sbox_1_item clearfix">
+					<span class="l" data="option_3"><strong>粉丝数</strong></span>
+					<div class="m">
+						<ul>
+							<li><a href="" class="cur">不限</a></li>
+							<li><a href="">5万以下</a></li>
+							<li><a href="">5-10万</a></li>
+							<li><a href="">10-15万</a></li>
+							<li><a href="">15-20万</a></li>
+							<li><a href="">20-30万</a></li>
+							<li><a href="">30-50万</a></li>
+							<li><a href="">50-70万</a></li>
+							<li><a href="">70-100万</a></li>
+							<li><a href="">100-150万</a></li>
+							<li><a href="">150-300万</a></li>
+							<li><a href="">300以上</a></li>
+						</ul>
+					</div>
 				</div>
 				<div class="sbox_1_item clearfix">
 					<span class="l" data="option_6"><strong>会员价</strong></span>
@@ -260,7 +235,7 @@
 					<tr>
 						<th>媒体名称</th>
 						<th>介绍</th>
-						<th>媒体特点</th>
+						<th>粉丝量</th>
 						<th>价格</th>
 						<th>删除</th>
 					</tr>
@@ -269,44 +244,28 @@
 					<tr>
 						<td><img src="img/bn66.png"/>新浪网</td>
 						<td>新浪网XXXXXXXXXXXXXX</td>
-						<td><select ><option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-							</select>
-						</td>
+						<td>41625211</td>
 						<td>80元</td>
 						<td><a href="">×</a></td>
 					</tr>
 					<tr>
 						<td><img src="img/bn66.png"/>新浪网</td>
 						<td>新浪网XXXXXXXXXXXXXX</td>
-						<td><select ><option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-							</select>
-						</td>
+						<td>41625211</td>
 						<td>80元</td>
 						<td><a href="">×</a></td>
 					</tr>
 					<tr>
 						<td><img src="img/bn66.png"/>新浪网</td>
 						<td>新浪网XXXXXXXXXXXXXX</td>
-						<td><select ><option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-							</select>
-						</td>
+						<td>41625211</td>
 						<td>80元</td>
 						<td><a href="">×</a></td>
 					</tr>
 					<tr>
 						<td><img src="img/bn66.png"/>新浪网</td>
 						<td>新浪网XXXXXXXXXXXXXX</td>
-						<td><select ><option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-								<option value="">二答20，三答25</option>
-							</select>
-						</td>
+						<td>41625211</td>
 						<td>80元</td>
 						<td><a href="">×</a></td>
 					</tr>
@@ -325,8 +284,7 @@
 							<li style="display:block;">
 								<div class="WMain3"><p><i class="LGntas"></i>投放形式:</p>
 									<select class="sel_2"><option value="">硬广单图文</option>
-										<option value="">11111</option>
-										<option value="">2</option>
+										<option value="">软广单图文</option>
 									</select>
 								</div>
 								<div class="WMain3"><p><i class="LGntas"></i>订单名称:</p>
@@ -337,21 +295,45 @@
 									<span>须晚于当前时间至少30分钟 建议您至少提前一天派单，或提前与客服确认相应公众号的可执行时间，以提高成单率</span>
 								</div>
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发类型:</p>
-									<label><input type="radio" name="ifchangetime" checked />指定直发内容</label>
-									<label><input type="radio" name="ifchangetime" />帐号自拟直发内容</label><br/>
+									<label><input type="radio" name="ifchangetime" onclick="zhifa.style.display='';zini.style.display='none';" checked />指定直发内容</label>
+									<label><input type="radio" name="ifchangetime" onclick="zini.style.display='';zhifa.style.display='none';"/>帐号自拟直发内容</label><br/>
 								</div>
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发内容:</p>
-									<div><textarea name="" class="tarea_1"></textarea></div>
-								</div>								
-								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发配图:</p>
-									<div class="txt_up">
-										<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
-										<input type="file" name="input_file" class="input_file" id="input_file" />
-										<input type="text" class="path_file" id="path_file" readonly="readonly" />
-										<label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
+								<!--指定直发内容-->
+								<div id="zhifa">
+									<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发内容:</p>
+										<div><textarea name="" class="tarea_1" placeholder="此处只需填写博主发出的内容（文案、链接），请不要填写其他无关信息"></textarea></div>
+									</div>								
+									<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>直发配图:</p>
+										<div class="txt_up">
+											<button type="button" name="textfield" id="textfield" class="txt8"/>上传</button>
+											<input type="file" name="input_file" class="input_file" id="input_file" />
+											<input type="text" class="path_file" id="path_file" readonly="readonly" />
+											<label style="margin-left:20px;"><input type="checkbox" name="" />封面图是否在正文中显示</label>
+										</div>
+										<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；建议尺寸：单图文、多图文第一条，900 * 500像素；多图文第2~N条，200*200像素。</span>
 									</div>
-									<span>支持jpg、jpeg、png、gif格式的图片，大小请控制在2M以下；建议尺寸：单图文、多图文第一条，900 * 500像素；多图文第2~N条，200*200像素。</span>
 								</div>
+								<!--帐号自拟直发内容-->
+								<div id="zini" style="display: none;">
+									<div class="WMain3"><p><i class="LGntas"></i>转发链接:</p>
+										<input type="text" name="textfield" id="textfield" class="txt6" placeholder="例：http://weibo.com/u/6021974234/home?wvr=5"/>
+									</div>								
+									<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>转发方式:</p>
+										<label><input type="radio" name="zinint" onclick="zhuanfa.style.display='';zinineirong.style.display='none';" checked/>指定直发内容</label>
+										<label><input type="radio" name="zinint" onclick="zinineirong.style.display='';zhuanfa.style.display='none';"/>帐号自拟直发内容</label><br/>
+									</div>
+									<div id="zhuanfa">
+										<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>转发内容:</p>
+											<div><textarea name="" class="tarea_1" placeholder="此处只需填写博主发出的内容（文案、链接），请不要填写其他无关信息"></textarea></div>
+										</div>
+									</div>
+									<div id="zinineirong" style="display: none;">
+										<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>自拟内容:</p>
+											<div><textarea name="" class="tarea_1" placeholder="此处只需填写博主发出的内容（文案、链接），请不要填写其他无关信息"></textarea></div>
+										</div>
+									</div>
+								</div>
+
 								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>订单备注:</p>
 									<div><textarea name="" class="tarea_1"></textarea></div>
 									<span>选填，您可以进一步明确发布要求。</span>

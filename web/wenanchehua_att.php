@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<title>网络媒体_问答任务添加 - 亚媒社</title>
+	<title>网络媒体_添加方案策划任务 - 亚媒社</title>
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 
@@ -18,8 +18,9 @@
 
 	<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
 	<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
-    <script type="text/javascript" charset="utf-8" src="zh-cn.js"></script>
+	<script type="text/javascript" charset="utf-8" src="zh-cn.js"></script>
 
+	<script type="text/javascript" src="js/date.js"></script>
 	<script type="text/javascript" src="js/main2.js"></script>
 
 <script type="text/javascript" src="js/jquery.tools.min.js"></script>
@@ -28,120 +29,102 @@
 
 <?php include("head.php"); ?>
 
-
-
 <div class="content"><div class="Invoice">
 <div class="INa1dd"><div class="ndt">
 		
-	<!--	问答任务添加	-->
-	<div class="Ifapiao"><h2>问答咨询</h2></div>
-	<div class="Wikipedia">
-		<div class="WIn1">
-        	<li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-            <li><img src="img/bn66.png" /></li>
-        </div>
-		<div class="WIn2">
-        	<h2>已选媒体</h2>
-			<table width="100%" border="0" class="table_in3">
-			<thead>
-				<tr>
-					<th>媒体名称</th>
-					<th>介绍</th>
-					<th>媒体特点</th>
-					<th>价格</th>
-					<th>删除</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<td><img src="img/bn66.png"/>新浪网</td>
-					<td>新浪网XXXXXXXXXXXXXX</td>
-					<td><select ><option value="">一问，一答</option>
-							<option value="">一问，二答</option>
-							<option value="">二问，四答</option>
-						</select>
-					</td>
-					<td>80元</td>
-					<td>×</td>
-				</tr>
-				<tr>
-					<td><img src="img/bn66.png"/>新浪网</td>
-					<td>新浪网XXXXXXXXXXXXXX</td>
-					<td><select ><option value="">一问，一答</option>
-                            <option value="">一问，二答</option>
-                            <option value="">二问，四答</option>
-                        </select>
-                    </td>
-					<td>80元</td>
-					<td>×</td>
-				</tr>
-				<tr>
-					<td><img src="img/bn66.png"/>新浪网</td>
-					<td>新浪网XXXXXXXXXXXXXX</td>
-					<td><select ><option value="">一问，一答</option>
-                            <option value="">一问，二答</option>
-                            <option value="">二问，四答</option>
-                        </select>
-                    </td>
-					<td>80元</td>
-					<td>×</td>
-				</tr>
-				<tr>
-					<td><img src="img/bn66.png"/>新浪网</td>
-					<td>新浪网XXXXXXXXXXXXXX</td>
-					<td><select ><option value="">一问，一答</option>
-                            <option value="">一问，二答</option>
-                            <option value="">二问，四答</option>
-                        </select>
-                    </td>
-					<td>80元</td>
-					<td>×</td>
-				</tr>
-				</tbody>
-			</table>
+	<!--	文案策划	-->
+	<div class="radius1">
+		<h3 class="title1"><strong><a href="#">文案策划</a></strong></h3>
+		
+		<div class="sbox_5">
+		
+				<div class="WMain1" style="border:none;">
+					<div class="WMain2 WMain2_weixin">
+						<ul>
+							<li style="display:block;">
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>类型:</p>
+									<div id="radio_a1">
+										<label class="cur"><input type="radio" name="type" value="" checked />常规新闻稿</label>
+									</div>
+<script type="text/javascript">
+	$("#radio_a1 label").click(function(){
+		$(this).addClass("cur").siblings("label").removeClass("cur");
+	});
+</script>
+								</div>
+								
+								<div class="WMain3"><p><i class="LGntas"></i>字数:</p>
+									<label><input type="radio" name="type" value="" />1000字</label>
+									<label><input type="radio" name="type" value="" />2000字</label>
+									<label><input type="radio" name="type" value="" />3000字</label>
+								</div>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>编辑:</p>
+									<div>
+										<label><input type="radio" name="type" value="" />专业手写 ￥100/千字1个工作日</label>
+										<label><input type="radio" name="type" value="" />专业编辑 ￥100/千字1个工作日</label>
+										<label><input type="radio" name="type" value="" />专业作者 ￥100/千字1个工作日</label>
+									</div>
+								</div>
+								<div class="WMain3"><p><i class="LGntas"></i>篇数:</p>
+									<select name="" class="sel2"><option value="">代写一篇</option>
+										<option value="">代写二篇</option>
+										<option value="">代写三篇</option>
+									</select>
+								</div>
+								<div class="WMain3"><p><i class="LGntas"></i>总额:</p>
+									<input type="text" name="textfield" id="textfield" class="txt6" style="width:130px;" />&nbsp; 元
+								</div>
+								<div class="WMain3 WMain3_2"><p><i class="LGntas"></i>文案内容:</p>
+									<div class="editor_w"><script id="editor" name="zw" type="text/plain"></script></div>
+								</div>
+								<div class="cehua_att"><p>修改备注:</p>
+					     			 <textarea name="textfield3" id="textfield3" class="cehua_IFN3"></textarea>
+					     			 <span>如对该方案内容有不同意见可在此提交说明并点击“修改”按钮，我们将尽快为你服务，</span>
+					            </div>
+								<div class="WMain3 WMain3_2" style="margin-top: 50px">
+									<input type="submit" value="确 认" class="cehua_IFN" />
+									<input type="submit" value="修 改" class="cehua_IFN2" />
+								</div>
+								
+							</li>
+						</ul>
+					</div>
+				</div>
 
-        </div>
-		<div class="WIn2">
-        	<h2>问答内容</h2>
-            <div class="WMain1">
-                <div class="WMain2">
-                    <ul>
-                        <li style="display:block;">
-                        	<div class="WMain3"><p><i class="LGntas">*</i>主题:</p>
-                                 <input type="text" name="textfield" id="textfield" placeholder="可输入25个汉字"  class="WIFN1"/>
-                            </div>
-                            <div class="WMain3"><p><i class="LGntas">*</i>描述:</p>
-                                 <input type="text" name="textfield" id="textfield"  class="WIFN2"/>
-                                 <div class="WMaP">请填写产品、品牌或推广活动（时间、地点及活动内容）简介，让预约对象大致了解此推广活动，请勿超过1000字。</div>
-                            </div>
-                            <div class="WMain5">
-                            	   <script id="editor" type="text/plain"></script>
-                            </div>
-                            <div class="WMain4">
-                            	<ul style=" padding:15px; float:left;">
-                                    <span style="color:#000; font-weight:700">任务须知</span>
-                                    <span>标题作为含有哪些关健词最好不要超过2个 ；</span>
-                                    <span>文章要求：关健词有哪些一定要写清楚，关健词文章内要出现几次，是否带连接、联系方式、图片等，如需带请自行准备如能提供范文最好，我们可以按照格式撰写；</span>
-                                    <span>交稿时间1-2个工作日；</span>
-                                    <span>给出的关健诩写多少篇稿件要写清楚。</span>
-                                </ul>
-                            </div>
-                        </li>
-                        <li>安全设置</li>
-                    </ul>
-                </div>
-            </div>
-			
-			<div class="clr btn_sub_w">
-				<button type="submit" value="submit" class="btn_sub"><img src="img/WLButton.png" /></button>
-			</div>
-			
+		</div>
+	</div>
+	
+</div></div>
+</div></div>
+
+
+<?php include("foot.php"); ?>
+
+<script type="text/javascript">
+/*	日历	*/
+var picker1 = new Pikaday({
+	field: document.getElementById('datepicker1'),
+	firstDay: 1,
+	minDate: new Date('2000-01-01'),
+	maxDate: new Date('2020-12-31'),
+	yearRange: [2000,2020]
+});
+var picker2 = new Pikaday({
+	field: document.getElementById('datepicker2'),
+	firstDay: 1,
+	minDate: new Date('2000-01-01'),
+	maxDate: new Date('2020-12-31'),
+	yearRange: [2000,2020]
+});
+var picker3 = new Pikaday({
+	field: document.getElementById('datepicker3'),
+	firstDay: 1,
+	minDate: new Date('2000-01-01'),
+	maxDate: new Date('2020-12-31'),
+	yearRange: [2000,2020]
+});
+
+</script>
 <script type="text/javascript">
 
     //实例化编辑器
@@ -253,16 +236,6 @@
         alert("已清空草稿箱")
     }
 </script>
-		</div>	
-
-	</div>
-	
-</div></div>
-</div></div>
-
-
-<?php include("foot.php"); ?>
-
 
 
 </body>
