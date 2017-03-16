@@ -50,7 +50,14 @@
 		<td><span class="color_red2">80元</span></td>
 		<td><a href="">恢复</a>|<a href="">删除</a></td>
 	</tr>
-	
+	<tr>
+		<td>生成订单ID</td>
+		<td>定单类型</td>
+		<td>活动标题</td>
+		<td>删除时间</td>
+		<td><span class="color_red2">80元</span></td>
+		<td><a href="">恢复</a>|<a href="">删除</a></td>
+	</tr>
 </tbody>
 </table>
 			

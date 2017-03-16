@@ -8,6 +8,7 @@
 
 <div class="clr" id="f_nav">
 	<a href="index.php">首页</a>
+	<a href="putong_index.php">普通会员首页</a>
 	<a href="fapiao.php" title="申请发票.psd">申请发票</a>
 	
 	<br/>
@@ -80,9 +81,11 @@
 	<br/>
 	<strong>平台管理中心：</strong>
 	<a href="Umanagement.php" title="">用户管理</a>
-	<a href="user_news.php" title="">创建用户</a>
+	<a href="user_news.php" title="">创建管理员或会员用户</a>
+	<a href="GYuser_news.php" title="">创建供应商用户</a>
 	<a href="URole.php" title="">用户角色分组列表</a>
 	<a href="Upermissions.php" title="">修改权限</a>
 	<a href="Drecord.php" title="">订单回收站</a>
-
+	<a href="renwuguanli.php" title="">任务管理列表</a>
+	<a href="Uchakandingdan.php" title="">查看任务管理订单</a>
 </div>

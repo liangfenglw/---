@@ -276,9 +276,9 @@ body{ background:#204186}
 .LGnta2{ width:28%; height:500px; float:left;padding-left:5%;border-left:1px solid #ccc; text-align:left; padding-top:10px;}
 .LGnta2 h4{ font-weight:100; font-size:15px;}
 .LGnta2 span{ font-size:14px; color:#999; text-align:left; line-height:25px; margin:15px 0; float:left;}
-.LGnt11{ width:85px; height:105px; float:left;}
-.LGnt11 img{ width:85px; height:85px; overflow:hidden;}
-.LGnt11 p{ line-height:20px; color:#fff; background:#2C9FDD; width:85px; text-align:center; font-size:12px;}
+.LGnt11{ width:90px; height:105px; float:left;}
+.LGnt11 img{ width:90px; height:85px; overflow:hidden;}
+.LGnt11 p{ line-height:20px; color:#fff; background:#2C9FDD; width:70px; text-align:center; font-size:12px;}
 
 
 /*网络媒体—百科*/

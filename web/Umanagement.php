@@ -53,7 +53,9 @@
 		<th>用户名</th>
 		<th>管理分组</th>
 		<th>创建时间</th>
-		<th>创建人</th>
+		<th>订单数</th>
+		<th>账户余额</th>
+		<th>备注</th>
 		<th>状态</th>
 		<th>操作</th>
 	</tr>
@@ -64,16 +66,20 @@
 		<td>13711174990</td>
 		<td>超级管理员</td>
 		<td>2017-2-20 14：00</td>
-		<td>Admin</td>
+		<td>150</td>
+		<td>￥228.00</td>
+		<td>备注</td>
 		<td>开启</td>
 		<td><a href="">修改</a>|<a href="">删除</a></td>
 	</tr>
 	<tr>
 		<td>2</td>
 		<td>13711174990</td>
-		<td>供应商</td>
+		<td>超级管理员</td>
 		<td>2017-2-20 14：00</td>
-		<td>Admin</td>
+		<td>150</td>
+		<td>￥228.00</td>
+		<td>备注</td>
 		<td>开启</td>
 		<td><a href="">修改</a>|<a href="">删除</a></td>
 	</tr>

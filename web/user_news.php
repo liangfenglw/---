@@ -26,8 +26,8 @@
 <div class="main" style="margin-top:20px;">
 		
 	<!--	添加新用户	-->
-	<div class="hdorder radius1">
-		<h3 class="title1"><strong><a href="#">添加新用户</a></strong>
+	<div class="hdorder radius1" style="float: left; margin-bottom: 50px;">
+		<h3 class="title1"><strong><a href="#">系统资源管理</a></strong>
 		</h3>
 		<div class="dhorder_m">
 			<div class="IF1">
@@ -41,7 +41,7 @@
 					<div class="IF3"><p>确认密码:</p>
 						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
 					</div>
-					<div class="XZFL"><p>用户角色:</p>
+					<div class="XZFL" style="margin: 10px 0; width: 100%;float: left;"><p>用户角色:</p>
 						<select name="select" id="select">
 		                    <option>超级管理员</option>
 		                    <option>供应商</option>
@@ -49,13 +49,28 @@
 		                    <option>高级会员</option>
 		                </select>
 					</div>
-					<div class="IF3" style="padding-top: 1.5%"><p>联系人:</p>
-						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
-					</div>
-					<div class="IF3"><p>电子邮箱:</p>
-						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
-					</div>
-					<div class="IF3"><p>联系电话:</p>
+					<div class="IF3"><p>会员头像:</p>
+                         <div class="LGnt11">
+                         	<img src="img/bn66.png" />
+                            <p>上传头像</p>
+                         </div>
+                    </div>
+                    <div class="IF3"><p>企业名称:</p>
+                         <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
+                    </div>
+                    <div class="IF3"><p>联系人:</p>
+                         <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
+                    </div>
+                    <div class="IF3"><p>QQ:</p>
+                         <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
+                    </div>
+                    <div class="IF3"><p>手机:</p>
+                         <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
+                    </div>
+                    <div class="IF3"><p>邮箱:</p>
+                         <input type="text" name="textfield" id="textfield"  class="LGnt2"/>
+                    </div>
+					<div class="IF3"><p>联系地址:</p>
 						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
 					</div>
 					<div class="IF3"><p>是否禁用:</p>
