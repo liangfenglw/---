@@ -40,6 +40,7 @@
         	<div class="IIO_nt">购物车共：<span>20</span>个</div>
             <ul class="ITorder"  id="apDiv1">
             	<li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -48,6 +49,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -55,6 +57,7 @@
                         <p>微信号：123456</p>
                     </div>
                 </a></li><li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -63,6 +66,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -71,6 +75,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -79,6 +84,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -87,6 +93,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
@@ -95,6 +102,7 @@
                     </div>
                 </a></li>
                 <li><a href="">
+                    <div class="GWxuanxiang"><input type="checkbox" name="checkItem" ></div>
                 	<div class="IOimg"><img src="img/bn66.png" />
                     <div class="IOweixin"><img src="img/1atn.jpg" /></div></div>
                     <div class="IOtext">
