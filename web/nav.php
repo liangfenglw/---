@@ -59,6 +59,7 @@
 	<a href="person_safe_zhengjianinfo.php" title="个人-安全设置-证件信息.psd">个人-安全设置-证件信息</a>
 	<a href="xitongxiaoxi.php" title="">最新消息</a>
 	<a href="back_pass.php" title="">找回密码</a>
+	<a href="S_results.php" title="">搜索结果页</a>
 	
 	<br/>
 	<strong>电视媒体：</strong>

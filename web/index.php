@@ -34,9 +34,9 @@
 		<div id="slideBox" class="slideBox">
 			<div class="bd">
 				<ul>
-					<li><a href="#" target="_blank"><img src="images/banner1.jpg" /></a></li>
-					<li><a href="#" target="_blank"><img src="images/pic2.jpg" /></a></li>
-					<li><a href="#" target="_blank"><img src="images/pic3.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="img/1.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="img/2.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="img/3.jpg" /></a></li>
 				</ul>
 			</div>
 			<div class="hd">
