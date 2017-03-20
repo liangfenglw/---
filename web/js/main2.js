@@ -32,53 +32,40 @@ function dataFormatter(obj) {
     return obj;
 }
 
-dataMap.dataGDPt = dataFormatter({
-    //max : 1200,
-    
-    2002:[1525,211,255,542,12,414,414,201,14,44,41,210] /*网络媒体*/  
+dataMap.dataWL = dataFormatter({
+     2002:[1525,211,255,542,12,414,414,201,14,44,41,210] /*网络媒体*/  
 });
 
-dataMap.dataGDPs = dataFormatter({
-    //max : 500,
-  
+dataMap.dataHW = dataFormatter({
     2002:[85,14,444,54,41,255,44,51,544,4,21,2] /*户外媒体*/  
 });
 
-dataMap.dataGDP = dataFormatter({
-    //max : 300,
-    
+dataMap.dataBM = dataFormatter({
     2002:[1000,32,255,54,325,365,22,51,544,255,21,2] /*平面媒体*/
 });
 
-dataMap.dataPI = dataFormatter({
-    //max : 250,
-  
-    2002:[54,542,545,21,20,254,2112,21,12,255,24,225] /*记者预约*/
+dataMap.dataDS = dataFormatter({
+     2002:[101,20,5,85,84,20,31,156,24,845,45,57] /*电视媒体*/
 });
 
-dataMap.dataSI = dataFormatter({
-    //max : 200,
-   
-    2002:[254,247,254,685,62,521,10,255,4,20,45,211] /*广播媒体*/
+dataMap.dataGB = dataFormatter({
+   2002:[62,82,95,15,0,594,84,35,652,154,150,41] /*广播媒体*/
 });
 
-dataMap.dataTI = dataFormatter({
-    //max : 150,
-    
-    2002:[574,1542,524,254,54,11,452,154,21,452,54,125] /*记者预约*/
+dataMap.dataJZ = dataFormatter({
+   2002:[54,542,545,21,20,254,2112,21,12,255,24,225] /*记者预约*/
 });
 
-dataMap.dataEstate = dataFormatter({
-    //max : 100,
-    
-    2002:[62,82,95,15,0,594,84,35,652,154,150,41] /*广播媒体*/
+dataMap.dataDX = dataFormatter({
+    2002:[254,247,254,685,62,521,10,255,4,20,45,211] /*内容代写*/
 });
 
-dataMap.dataFinancial = dataFormatter({
-    //max : 50,
-    
-    2002:[101,20,5,85,84,20,31,156,24,845,45,57] /*电视媒体*/
+dataMap.dataDZ = dataFormatter({
+    2002:[574,1542,524,254,54,11,452,154,21,452,54,125] /*宣传定制*/
 });
+
+
+
 
 
 option = {
@@ -90,7 +77,7 @@ option = {
             // loop: false,
             autoPlay: true,
             // currentIndex: 2,
-            playInterval: 1000,
+            playInterval: 50,
             // controlStyle: {
             //     position: 'left'
             // },
@@ -138,8 +125,8 @@ option = {
             {name: '电视媒体', type: 'bar'},
             {name: '广播媒体', type: 'bar'},
             {name: '记者预约', type: 'bar'},
-            {name: '广播媒体', type: 'bar'},
-            {name: '记者预约', type: 'bar'},
+            {name: '内容代写', type: 'bar'},
+            {name: '宣传定制', type: 'bar'},
             {
                 name: '分类订单占比',
                 type: 'pie',
@@ -152,25 +139,25 @@ option = {
         {
             /*title: {text: '2002全国宏观经济指标'},*/
             series: [
-            	{data: dataMap.dataGDPt['2002']},
-            	{data: dataMap.dataGDPs['2002']},
-                {data: dataMap.dataGDP['2002']},
-                {data: dataMap.dataFinancial['2002']},
-                {data: dataMap.dataEstate['2002']},
-                {data: dataMap.dataPI['2002']},
-                {data: dataMap.dataSI['2002']},
-                {data: dataMap.dataTI['2002']},
+            	{data: dataMap.dataWL['2002']},
+            	{data: dataMap.dataHW['2002']},
+                {data: dataMap.dataBM['2002']},
+                {data: dataMap.dataDS['2002']},
+                {data: dataMap.dataGB['2002']},
+                {data: dataMap.dataJZ['2002']},
+                {data: dataMap.dataDX['2002']},
+                {data: dataMap.dataDZ['2002']},
 
 
                 {data: [
-                    {name: '网络媒体', value: dataMap.dataPI['2002sum']},
-                    {name: '户外媒体', value: dataMap.dataSI['2002sum']},
-                    {name: '平面媒体', value: dataMap.dataTI['2002sum']},
-                    {name: '电视媒体', value: dataMap.dataPI['2002sum']},
-                    {name: '广播媒体', value: dataMap.dataSI['2002sum']},
-                    {name: '记者预约', value: dataMap.dataTI['2002sum']},
-                    {name: '内容代写', value: dataMap.dataPI['2002sum']},
-                    {name: '宣传定制', value: dataMap.dataSI['2002sum']},
+                    {name: '网络媒体', value: dataMap.dataWL['2002sum']},
+                    {name: '户外媒体', value: dataMap.dataHW['2002sum']},
+                    {name: '平面媒体', value: dataMap.dataBM['2002sum']},
+                    {name: '电视媒体', value: dataMap.dataDS['2002sum']},
+                    {name: '广播媒体', value: dataMap.dataGB['2002sum']},
+                    {name: '记者预约', value: dataMap.dataJZ['2002sum']},
+                    {name: '内容代写', value: dataMap.dataDX['2002sum']},
+                    {name: '宣传定制', value: dataMap.dataDZ['2002sum']},
 
                 ]}
             ]
