@@ -77,11 +77,11 @@ option = {
             // loop: false,
             autoPlay: true,
             // currentIndex: 2,
-            playInterval: 50,
+            playInterval: 1000,
             // controlStyle: {
             //     position: 'left'
             // },
-            
+            show:false,
             label: {
                 formatter : function(s) {
                     return (new Date(s)).getFullYear();
@@ -116,6 +116,7 @@ option = {
             {
                 type: 'value',
                 name: '订单数（条）'
+                ,interval: 100
             }
         ],
         series: [
