@@ -49,7 +49,12 @@
 					<div class="IF3"><p>活动名称:</p>
 						<input type="text" name="textfield2" id="FLnome"  class="IFN2"/>
 					</div>
-
+					<div class="IF3"><p>开始时间:</p>
+						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
+					</div>
+					<div class="IF3"><p>结束时间:</p>
+						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
+					</div>
 					<div class="IF3"><p>价格：</p>
 						<input type="text" name="textfield2" id="FLsorting"  class="FLn1"/><span>元</span>
 					</div>

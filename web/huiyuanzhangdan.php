@@ -18,23 +18,10 @@
 
 <?php include("head.php"); ?>
 
-<div class="w100 nav_hdorder clearfix clr">
-<div class="content"><div class="Invoice" style="background:#fff;"><div class="INa1dd">
-	<div class="w100">
-		<ul class="tab">
-			<li><a href="huodongorder.php">活动订单</a></li>
-			<li><a href="">预约订单</a></li>
-			<li><a href="resource_management.php">资源管理</a></li>
-			<li class="cur"><a href="bill_inquiry.php">账单查询</a></li>
-			<li><a href="user_center.php">用户中心</a></li>
-		<ul>
-	</div>
-</div></div></div>
-</div>
-
 <!--帐单查询-->
 
 <div class="content"><div class="Invoice"><div class="INa1dd" style="margin-top:20px;">
+<h3 class="title1"><strong><a href="#">帐单查询</a></strong></h3>
 	<div class="info1 clearfix">
 		<div class="info1_l">
 			<div class="bill1" style="border-bottom:1px dotted #e5e5e5;">
@@ -48,11 +35,11 @@
 		</div>
 		<div class="info1_m">
 			<div class="bill1 bill2">
-				<h3>拥有媒体帐号数：</h3>
+				<h3>已发布订单数：</h3>
 				<p>84565个</p>
 			</div>
 			<div class="bill1 bill2" style="margin-top:19px;">
-				<h3>已完成订单数：</h3>
+				<h3>未完成订单数：</h3>
 				<p>65个</p>
 			</div>
 		</div>
@@ -60,12 +47,12 @@
 	</div>
 	<div class="info2">
 		<div class="info2_l">
-			<h3>可接单数：0 单</h3>
-			<a href="" class="btn_b">我要去接单</a>
+			<h3>可发单数：全部</h3>
+			<a href="" class="btn_b">我要去下单</a>
 		</div>
 		<div class="info2_r">
-			<h3>申诉中的单数：</h3>
-			<b>0 单</b>
+			<a href="" class="HYzhangdan">充值</a>
+			<a href="" class="HYzhangdan">提现</a>
 		</div>
 	</div>
 </div></div></div>

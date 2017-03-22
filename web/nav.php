@@ -20,6 +20,7 @@
 	<a href="reset_Uname.php" title="">重置用户名</a>
 	<a href="tixian.php" title="">账户提现</a>
 	<a href="tixianliebiao.php" title="">提现列表</a>
+	<a href="huiyuanzhangdan.php" title="">会员账户查询</a>
 
 	<br/>
 	<strong>网络媒体：</strong>
