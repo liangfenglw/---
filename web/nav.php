@@ -19,6 +19,7 @@
 	<a href="huiyuanedit.php" title="会员中心/会员中心.psd">会员中心</a>
 	<a href="reset_Uname.php" title="">重置用户名</a>
 	<a href="tixian.php" title="">账户提现</a>
+	<a href="tixianliebiao.php" title="">提现列表</a>
 
 	<br/>
 	<strong>网络媒体：</strong>

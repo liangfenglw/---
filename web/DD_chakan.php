@@ -34,7 +34,7 @@
 					<div class="IF3"><p>订单号:</p>
 						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
 					</div>
-					<div class="IF3"><p>订单状态:</p>
+					<div class="IF3"><p>订单流程:</p>
 						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
 					</div>
 					<div class="IF3"><p>活动类型:</p>
@@ -56,6 +56,12 @@
 					<div class="IF3"><p>订单备注:</p>
 						<div class="chakan">订单备注</div>
 					</div>
+					<div class="IF3"><p>订单状态:</p>
+						<select name="select" id="select">
+		                    <option>确认完成</option>
+		                    <option>订单反馈</option>
+		                </select>
+					</div>
 					<div class="IF3"><p>完成链接:</p>
 						<input type="text" name="textfield2" id="FLnome"  class="IFN2"/>
 					</div>
@@ -65,10 +71,10 @@
                             <p>上传图片</p>
                          </div>
                     </div>
-                    <div class="IF3"><p>订单备注:</p>
-						<div class="chakan">订单备注</div>
+                    <div class="IF3"><p>供应商反馈:</p>
+						<div class="chakan">供应商反馈</div>
 					</div>
-                    <div class="IF3"><p>订单反馈:</p>
+                    <div class="IF3"><p>会员反馈:</p>
 						<textarea name="textfield3" class="IFN3"></textarea>
 					</div>
 				</div>
