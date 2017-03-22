@@ -49,6 +49,9 @@
 					<div class="IF3"><p>活动名称:</p>
 						<input type="text" name="textfield2" id="FLnome"  class="IFN2"/>
 					</div>
+					<div class="IF3"><p>任务需求:</p>
+						<div class="renwuxuqiu">任务需求</div>
+					</div>
 					<div class="IF3"><p>开始时间:</p>
 						<input type="text" name="textfield2" id=" FLnome"  class="LGnt2"/>
 					</div>

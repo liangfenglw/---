@@ -58,7 +58,7 @@
 		</div>
 		<div class="info1_r"><img src="/images/pic6.jpg" ></div>
 	</div>
-	<div class="info2">
+	<!--<div class="info2">
 		<div class="info2_l">
 			<h3>可接单数：0 单</h3>
 			<a href="" class="btn_b">我要去接单</a>
@@ -67,7 +67,7 @@
 			<h3>申诉中的单数：</h3>
 			<b>0 单</b>
 		</div>
-	</div>
+	</div>-->
 </div></div></div>
 
 
@@ -107,9 +107,8 @@
 		<th>订单号</th>
 		<th>订单类型</th>
 		<th>订单名称</th>
-		<th>订单流程</th>
+		<th>截图/链接</th>
 		<th>金额</th>
-		<th>账户余额</th>
 	</tr>
 </thead>
 <tbody>
@@ -126,38 +125,21 @@
 <table class="table_in1">
 <thead>
 	<tr>
-		<th width="10%">日期</th>
+		<th>日期</th>
 		<th>订单号</th>
-		<th>平台</th>
-		<th>资源名称</th>
-		<th>活动名称</th>
+		<th>订单类型</th>
+		<th>订单名称</th>
 		<th>截图/链接</th>
-		<th>类型</th>
 		<th>金额</th>
-		<th>余额</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
 		<td>2016.8.18</td>
 		<td>24r34f66</td>
-		<td>新浪</td>
-		<td>秒分必争创业</td>
-		<td>秒分必争创业</td>
-		<td><a href="" target="_blank"><img class="link" src="/images/ico_link.png" alt="链接/截图" /></a></td>
-		<td><span class="color_green">优</span></td>
-		<td><span class="color_red2">80元</span></td>
-		<td><span class="color_red2">80元</span></td>
-	</tr>
-	<tr>
-		<td>2016.8.18</td>
-		<td>24r34f66</td>
-		<td>新浪</td>
-		<td>秒分必争创业</td>
+		<td>新闻任务</td>
 		<td>秒分必争创业</td>
 		<td><a href="" target="_blank"><img class="link" src="/images/ico_link.png" alt="链接/截图" /></a></td>
-		<td><span class="color_green">优</span></td>
-		<td><span class="color_red2">80元</span></td>
 		<td><span class="color_red2">80元</span></td>
 	</tr>
 </tbody>
@@ -165,49 +147,21 @@
 <table class="table_in1">
 <thead>
 	<tr>
-		<th width="10%">日期</th>
+		<th>日期</th>
 		<th>订单号</th>
-		<th>平台</th>
-		<th>资源名称</th>
-		<th>活动名称</th>
+		<th>订单类型</th>
+		<th>订单名称</th>
 		<th>截图/链接</th>
-		<th>类型</th>
 		<th>金额</th>
-		<th>余额</th>
 	</tr>
 </thead>
 <tbody>
 	<tr>
-		<td>2016.8.1811</td>
-		<td>24r34f66</td>
-		<td>新浪</td>
-		<td>秒分必争创业</td>
-		<td>秒分必争创业</td>
-		<td><a href="" target="_blank"><img class="link" src="/images/ico_link.png" alt="链接/截图" /></a></td>
-		<td><span class="color_green">优</span></td>
-		<td><span class="color_red2">80元</span></td>
-		<td><span class="color_red2">80元</span></td>
-	</tr>
-	<tr>
 		<td>2016.8.18</td>
 		<td>24r34f66</td>
-		<td>新浪</td>
-		<td>秒分必争创业</td>
-		<td>秒分必争创业</td>
-		<td><a href="" target="_blank"><img class="link" src="/images/ico_link.png" alt="链接/截图" /></a></td>
-		<td><span class="color_green">优</span></td>
-		<td><span class="color_red2">80元</span></td>
-		<td><span class="color_red2">80元</span></td>
-	</tr>
-	<tr>
-		<td>2016.8.18</td>
-		<td>24r34f66</td>
-		<td>新浪</td>
-		<td>秒分必争创业</td>
+		<td>新闻任务</td>
 		<td>秒分必争创业</td>
 		<td><a href="" target="_blank"><img class="link" src="/images/ico_link.png" alt="链接/截图" /></a></td>
-		<td><span class="color_green">优</span></td>
-		<td><span class="color_red2">80元</span></td>
 		<td><span class="color_red2">80元</span></td>
 	</tr>
 </tbody>
