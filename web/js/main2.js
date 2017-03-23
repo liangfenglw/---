@@ -4,7 +4,6 @@ $(function(){
 	if( $(".slideBox").length>0 ){
 		$(".slideBox").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,delayTime:700});
 	}
-
 	
 // 首页投放分布
 if( $("#tb1").length>0 ){
@@ -75,7 +74,7 @@ option = {
             axisType: 'category',
             // realtime: false,
             // loop: false,
-            autoPlay: true,
+            autoPlay: false,
             // currentIndex: 2,
             playInterval: 1000,
             // controlStyle: {
@@ -94,8 +93,7 @@ option = {
         tooltip: {},
         legend: {
             x: 'center',
-            data: ['网络媒体', '户外媒体', '平面媒体', '电视媒体', '广播媒体', '记者预约', '内容代写', '宣传定制'],
-            
+            data: ['网络媒体', '户外媒体', '平面媒体', '电视媒体', '广播媒体', '记者预约', '内容代写', '宣传定制']
         },
         calculable : true,
         grid: {
@@ -149,7 +147,6 @@ option = {
                 {data: dataMap.dataDX['2002']},
                 {data: dataMap.dataDZ['2002']},
 
-
                 {data: [
                     {name: '网络媒体', value: dataMap.dataWL['2002sum']},
                     {name: '户外媒体', value: dataMap.dataHW['2002sum']},
@@ -158,12 +155,10 @@ option = {
                     {name: '广播媒体', value: dataMap.dataGB['2002sum']},
                     {name: '记者预约', value: dataMap.dataJZ['2002sum']},
                     {name: '内容代写', value: dataMap.dataDX['2002sum']},
-                    {name: '宣传定制', value: dataMap.dataDZ['2002sum']},
-
+                    {name: '宣传定制', value: dataMap.dataDZ['2002sum']}
                 ]}
             ]
-        },
-        
+        }
     ]
 };
 	// 使用刚指定的配置项和数据显示图表。
@@ -178,37 +173,6 @@ option = {
 		return false;
 	});
 
-
-/*	首页表格排序	*/
-if( $('#datatable1').length>0 ){
-	$('#datatable1').DataTable({
-		"searching" : false,
-		"paging" : false,
-		"lengthChange" : false,
-		"info" : false,
-		"columnDefs" : [{
-        	"targets": 'nosort',
-			"orderable": false
-		}],
-		"order" : [[0,"asc"]]
-	});
-}
-/*	
-	$('.data-table').dataTable({
-        "searching": false,  //是否允许Datatables开启本地搜索
-        "paging": false,  //是否开启本地分页
-        "lengthChange": false,  //是否允许用户改变表格每页显示的记录数
-        "info": false,   //控制是否显示表格左下角的信息
-        "columnDefs": [{
-            "targets": 'nosort',  //列的样式名
-            "orderable": false    //包含上样式名‘nosort’的禁止排序
-        }],
-        //跟数组下标一样，第一列从0开始，这里表格初始化时，第四列默认降序
-        "order": [3]  //asc升序   desc降序  "order": [[ 3, "desc" ]]默认第四列为降序排列
-    });
-*/
-
-
 /*	媒体供应商_活动订单	*/
 /*	$(".nav_hdorder .tab li a").click(function(){
 		$(this).parent("li").addClass("cur").siblings("li").removeClass("cur");
@@ -218,12 +182,7 @@ if( $('#datatable1').length>0 ){
 
 
 
-
-
-
-
 });	
-
 
 //	首页搜索条左边时间
 function showtime(){
@@ -239,21 +198,8 @@ function showtime(){
 	},1000);
 }
 
-
-
-
-
 function SetFrameHeight(o) {
        var mainheight = $(o).contents().find("body").children("div").height() + 30;
        $(o).height(mainheight);
  }
-
-
-
-
-
-
-
-
-
 
