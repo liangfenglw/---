@@ -10,7 +10,13 @@ $(function(){
 	}else{
 		$("#go_top").hide();
 	}
-  }); 
+  });
+  
+  	var winh = $(window).height(),
+		minh = winh - $(".frame").height() - $(".foot").height(),
+		Invh = $(".Invoice").height();
+	$(".Invoice").css("min-height",minh);
+	
 })
 </script>   
 </div>

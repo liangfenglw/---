@@ -93,4 +93,9 @@
 	<a href="Drecord.php" title="">订单回收站</a>
 	<a href="renwuguanli.php" title="">任务管理列表</a>
 	<a href="Uchakandingdan.php" title="">查看任务管理订单</a>
+	
+	<br/>
+	<br/>
+	<a href="test.php">左侧和底部背景修改</a>
+	
 </div>
